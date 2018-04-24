@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:camunda="http://camunda.org/schema/1.0/bpmn" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Definitions_1" targetNamespace="http://bpmn.io/schema/bpmn" exporter="Camunda Modeler" exporterVersion="1.9.0">
+  <bpmn:process id="catchErrorThrownByJavaDelegateOnEmbeddedSubProcess" isExecutable="true">
+    <bpmn:startEvent id="theStart">
+      <bpmn:outgoing>flow1</bpmn:outgoing>
+    </bpmn:startEvent>
+    <bpmn:sequenceFlow id="flow1" sourceRef="theStart" targetRef="subProcess" />
+    <bpmn:subProcess id="subProcess">
+      <bpmn:incoming>flow1</bpmn:incoming>
+      <bpmn:outgoing>flow5</bpmn:outgoing>
+      <bpmn:startEvent id="subProcessStart">
+        <bpmn:outgoing>flow2</bpmn:outgoing>
+      </bpmn:startEvent>
+      <bpmn:sequenceFlow id="flow2" sourceRef="subProcessStart" targetRef="serviceTask" />
+      <bpmn:serviceTask id="serviceTask" camunda:class="ESS.FW.Bpm.Engine.Tests.Bpmn.Event.Error.ThrowBpmnErrorDelegate,ESS.FW.Bpm.Engine.Tests">
+        <bpmn:incoming>flow2</bpmn:incoming>
+        <bpmn:outgoing>SequenceFlow_1pw3w1i</bpmn:outgoing>
+      </bpmn:serviceTask>
+      <bpmn:endEvent id="EndEvent_0xzx43j">
+        <bpmn:incoming>SequenceFlow_1pw3w1i</bpmn:incoming>
+      </bpmn:endEvent>
+      <bpmn:sequenceFlow id="SequenceFlow_1pw3w1i" sourceRef="serviceTask" targetRef="EndEvent_0xzx43j" />
+    </bpmn:subProcess>
+    <bpmn:boundaryEvent id="catchException" attachedToRef="subProcess">
+      <bpmn:outgoing>flow4</bpmn:outgoing>
+      <bpmn:errorEventDefinition errorRef="myException" />
+    </bpmn:boundaryEvent>
+    <bpmn:sequenceFlow id="flow4" sourceRef="catchException" targetRef="escalatedExceptionTask" />
+    <bpmn:userTask id="escalatedExceptionTask" name="Escalated Exception Task">
+      <bpmn:incoming>flow4</bpmn:incoming>
+    </bpmn:userTask>
+    <bpmn:endEvent id="theEnd">
+      <bpmn:incoming>SequenceFlow_0cxymp4</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:sequenceFlow id="flow5" sourceRef="subProcess" targetRef="Task_0z3wl52" />
+    <bpmn:sequenceFlow id="SequenceFlow_0cxymp4" sourceRef="Task_0z3wl52" targetRef="theEnd" />
+    <bpmn:serviceTask id="Task_0z3wl52" camunda:expression="1">
+      <bpmn:incoming>flow5</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_0cxymp4</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:boundaryEvent id="catchError" attachedToRef="subProcess">
+      <bpmn:outgoing>flow3</bpmn:outgoing>
+      <bpmn:errorEventDefinition errorRef="myError" />
+    </bpmn:boundaryEvent>
+    <bpmn:userTask id="escalatedTask" name="Escalated Task">
+      <bpmn:incoming>flow3</bpmn:incoming>
+    </bpmn:userTask>
+    <bpmn:sequenceFlow id="flow3" sourceRef="catchError" targetRef="escalatedTask" />
+  </bpmn:process>
+  <bpmn:error id="myError" name="myError" errorCode="23" />
+  <bpmn:error id="myException" name="myException" errorCode="ESS.FW.Bpm.Engine.Tests.Bpmn.Event.Error.MyBusinessException" />
+  <bpmndi:BPMNDiagram id="BPMNDiagram_1">
+    <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="catchErrorThrownByJavaDelegateOnEmbeddedSubProcess">
+      <bpmndi:BPMNShape id="_BPMNShape_StartEvent_2" bpmnElement="theStart">
+        <dc:Bounds x="173" y="102" width="36" height="36" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_12hn1v3_di" bpmnElement="flow1">
+        <di:waypoint xsi:type="dc:Point" x="209" y="120" />
+        <di:waypoint xsi:type="dc:Point" x="264" y="120" />
+        <di:waypoint xsi:type="dc:Point" x="264" y="131" />
+        <di:waypoint xsi:type="dc:Point" x="318" y="131" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="279" y="119" width="0" height="13" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="SubProcess_18oa43g_di" bpmnElement="subProcess" isExpanded="true">
+        <dc:Bounds x="318" y="31" width="350" height="200" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="StartEvent_1rgxq4t_di" bpmnElement="subProcessStart">
+        <dc:Bounds x="364" y="109" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="382" y="148" width="0" height="13" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_0p01pcm_di" bpmnElement="flow2">
+        <di:waypoint xsi:type="dc:Point" x="400" y="127" />
+        <di:waypoint xsi:type="dc:Point" x="442" y="127" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="421" y="105.5" width="0" height="13" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="ServiceTask_03f9xzb_di" bpmnElement="serviceTask">
+        <dc:Bounds x="442" y="87" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="BoundaryEvent_1onppyv_di" bpmnElement="catchException">
+        <dc:Bounds x="650" y="164" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="623" y="203" width="90" height="13" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_1a0vlgi_di" bpmnElement="flow4">
+        <di:waypoint xsi:type="dc:Point" x="686" y="182" />
+        <di:waypoint xsi:type="dc:Point" x="713" y="182" />
+        <di:waypoint xsi:type="dc:Point" x="713" y="182" />
+        <di:waypoint xsi:type="dc:Point" x="740" y="182" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="683" y="175.5" width="90" height="13" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="UserTask_0uqwzvd_di" bpmnElement="escalatedExceptionTask">
+        <dc:Bounds x="740" y="142" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="EndEvent_0xlwdfv_di" bpmnElement="theEnd">
+        <dc:Bounds x="475" y="408" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="448" y="447" width="90" height="13" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_0cfcx40_di" bpmnElement="flow5">
+        <di:waypoint xsi:type="dc:Point" x="493" y="231" />
+        <di:waypoint xsi:type="dc:Point" x="493" y="256" />
+        <di:waypoint xsi:type="dc:Point" x="493" y="256" />
+        <di:waypoint xsi:type="dc:Point" x="493" y="280" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="463" y="249.5" width="90" height="13" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="SequenceFlow_0cxymp4_di" bpmnElement="SequenceFlow_0cxymp4">
+        <di:waypoint xsi:type="dc:Point" x="493" y="360" />
+        <di:waypoint xsi:type="dc:Point" x="493" y="408" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="508" y="377.5" width="0" height="13" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="ServiceTask_1u3fl3f_di" bpmnElement="Task_0z3wl52">
+        <dc:Bounds x="443" y="280" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="EndEvent_0xzx43j_di" bpmnElement="EndEvent_0xzx43j">
+        <dc:Bounds x="584" y="109" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="602" y="148" width="0" height="13" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_1pw3w1i_di" bpmnElement="SequenceFlow_1pw3w1i">
+        <di:waypoint xsi:type="dc:Point" x="542" y="127" />
+        <di:waypoint xsi:type="dc:Point" x="584" y="127" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="563" y="105" width="0" height="13" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="BoundaryEvent_02mvkzp_di" bpmnElement="catchError">
+        <dc:Bounds x="650" y="68" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="623" y="107" width="90" height="13" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="UserTask_0xkb873_di" bpmnElement="escalatedTask">
+        <dc:Bounds x="740" y="46" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_1dk1wpd_di" bpmnElement="flow3">
+        <di:waypoint xsi:type="dc:Point" x="686" y="86" />
+        <di:waypoint xsi:type="dc:Point" x="740" y="86" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="668" y="65" width="90" height="13" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn:definitions>

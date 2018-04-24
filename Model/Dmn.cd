@@ -1,0 +1,1380 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="org.camunda.bpm.model.dmn.DecisionTableOrientation" Collapsed="true">
+    <Position X="153.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACIACCAAAAEAAEABAACAAQAAgAACAAAAAAAAgQAAA=</HashCode>
+      <FileName>Dmn\DecisionTableOrientation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.dmn.Dmn" Collapsed="true">
+    <Position X="155.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQABAAgAAABoAAAEAAAAAARQAoQBIIAACAAAgCAAAKA=</HashCode>
+      <FileName>Dmn\Dmn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.dmn.DmnModelException" Collapsed="true">
+    <Position X="153.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\DmnModelException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.dmn.HitPolicy" Collapsed="true">
+    <Position X="153.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAACAAwAEAAEABCACAAQAAgEEKAAAAAAAQAQAAA=</HashCode>
+      <FileName>Dmn\HitPolicy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.dmn.impl.DmnModelConstants" Collapsed="true">
+    <Position X="157.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>C4LFiaObEqFEUtElDrINmYQCAsAoXMAowJYATPLUgco=</HashCode>
+      <FileName>Dmn\impl\DmnModelConstants.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.dmn.impl.DmnModelInstanceImpl" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="155.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Dmn\impl\DmnModelInstanceImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.dmn.impl.DmnParser" Collapsed="true">
+    <Position X="157.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAABAAAAAAAAQAAEAAAAAAAIEAAAA=</HashCode>
+      <FileName>Dmn\impl\DmnParser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.dmn.impl.QueryImpl&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="155.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIgAAAAAAABAABEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\impl\QueryImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.dmn.impl.instance.AllowedAnswersImpl" Collapsed="true">
+    <Position X="151.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\impl\instance\AllowedAnswersImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.dmn.impl.instance.AllowedValuesImpl" Collapsed="true">
+    <Position X="45.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\impl\instance\AllowedValuesImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.dmn.impl.instance.ArtifactImpl" Collapsed="true">
+    <Position X="10.5" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\impl\instance\ArtifactImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.dmn.impl.instance.AssociationImpl" Collapsed="true">
+    <Position X="9.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAggEAAAAAAAAAACAAAAAAYAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Dmn\impl\instance\AssociationImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.dmn.impl.instance.AuthorityRequirementImpl" Collapsed="true">
+    <Position X="2.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAEAAAAAAAQABAAAAABAAAAAJAAAAAA=</HashCode>
+      <FileName>Dmn\impl\instance\AuthorityRequirementImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.dmn.impl.instance.BindingImpl" Collapsed="true">
+    <Position X="5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAgAAAAAAAAAAAEAAAAAAQAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\impl\instance\BindingImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.dmn.impl.instance.BusinessContextElementImpl" Collapsed="true">
+    <Position X="53.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAQAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\impl\instance\BusinessContextElementImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.dmn.impl.instance.BusinessKnowledgeModelImpl" Collapsed="true">
+    <Position X="61.25" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAgBgAAAAAAgAACAAAAAAAAAACAAQAAAEAAAA=</HashCode>
+      <FileName>Dmn\impl\instance\BusinessKnowledgeModelImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.dmn.impl.instance.ColumnImpl" Collapsed="true">
+    <Position X="72.5" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\impl\instance\ColumnImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.dmn.impl.instance.ContextEntryImpl" Collapsed="true">
+    <Position X="81.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAEAAAAAAAAAASAAQAAAAAAAA=</HashCode>
+      <FileName>Dmn\impl\instance\ContextEntryImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.dmn.impl.instance.ContextImpl" Collapsed="true">
+    <Position X="23" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAgAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\impl\instance\ContextImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.dmn.impl.instance.DecisionImpl" Collapsed="true">
+    <Position X="63.5" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EIAAAECAgAEBgAAABgAgGQgACAQAAQAWAAQAAAEACkI=</HashCode>
+      <FileName>Dmn\impl\instance\DecisionImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.dmn.impl.instance.DecisionMadeReferenceImpl" Collapsed="true">
+    <Position X="108.5" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\impl\instance\DecisionMadeReferenceImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.dmn.impl.instance.DecisionMakerReferenceImpl" Collapsed="true">
+    <Position X="113" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\impl\instance\DecisionMakerReferenceImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.dmn.impl.instance.DecisionOwnedReferenceImpl" Collapsed="true">
+    <Position X="119.75" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\impl\instance\DecisionOwnedReferenceImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.dmn.impl.instance.DecisionOwnerReferenceImpl" Collapsed="true">
+    <Position X="128.75" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\impl\instance\DecisionOwnerReferenceImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.dmn.impl.instance.DecisionRuleImpl" Collapsed="true">
+    <Position X="14" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAQAAAAAAAAAAABAAAQAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\impl\instance\DecisionRuleImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.dmn.impl.instance.DecisionServiceImpl" Collapsed="true">
+    <Position X="50" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ARCCACIAgAACAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\impl\instance\DecisionServiceImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.dmn.impl.instance.DecisionTableImpl" Collapsed="true">
+    <Position X="16.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BgIABAAAiAAABAAAAAAwAAAAEIAAAAAAAAIACAAAIAA=</HashCode>
+      <FileName>Dmn\impl\instance\DecisionTableImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.dmn.impl.instance.DefaultOutputEntryImpl" Collapsed="true">
+    <Position X="32" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\impl\instance\DefaultOutputEntryImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.dmn.impl.instance.DefinitionsImpl" Collapsed="true">
+    <Position X="56.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAEAAIAgASAAIEEQAQGAAACAAABKAhEAABAAAAQCAA=</HashCode>
+      <FileName>Dmn\impl\instance\DefinitionsImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.dmn.impl.instance.DescriptionImpl" Collapsed="true">
+    <Position X="7.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\impl\instance\DescriptionImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.dmn.impl.instance.DmnElementImpl" Collapsed="true">
+    <Position X="43.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAASAAAA1AAgAACAgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\impl\instance\DmnElementImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.dmn.impl.instance.DmnElementReferenceImpl" Collapsed="true">
+    <Position X="108.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAgAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\impl\instance\DmnElementReferenceImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.dmn.impl.instance.DmnModelElementInstanceImpl" Collapsed="true">
+    <Position X="75.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\impl\instance\DmnModelElementInstanceImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.dmn.impl.instance.DrgElementImpl" Collapsed="true">
+    <Position X="64.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\impl\instance\DrgElementImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.dmn.impl.instance.DrgElementReferenceImpl" Collapsed="true">
+    <Position X="110.75" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\impl\instance\DrgElementReferenceImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.dmn.impl.instance.ElementCollectionImpl" Collapsed="true">
+    <Position X="77" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAgAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\impl\instance\ElementCollectionImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.dmn.impl.instance.EncapsulatedDecisionReferenceImpl" Collapsed="true">
+    <Position X="122" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\impl\instance\EncapsulatedDecisionReferenceImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.dmn.impl.instance.EncapsulatedLogicImpl" Collapsed="true">
+    <Position X="18.5" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\impl\instance\EncapsulatedLogicImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.dmn.impl.instance.ExpressionImpl" Collapsed="true">
+    <Position X="25.25" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAA=</HashCode>
+      <FileName>Dmn\impl\instance\ExpressionImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.dmn.impl.instance.ExtensionElementsImpl" Collapsed="true">
+    <Position X="0.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAABAAAAQAAQAAAAAAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>Dmn\impl\instance\ExtensionElementsImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.dmn.impl.instance.FormalParameterImpl" Collapsed="true">
+    <Position X="70.25" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\impl\instance\FormalParameterImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.dmn.impl.instance.FunctionDefinitionImpl" Collapsed="true">
+    <Position X="18.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAACAAAEAAAAEAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\impl\instance\FunctionDefinitionImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.dmn.impl.instance.ImpactedPerformanceIndicatorReferenceImpl" Collapsed="true">
+    <Position X="92.75" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\impl\instance\ImpactedPerformanceIndicatorReferenceImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.dmn.impl.instance.ImpactingDecisionReferenceImpl" Collapsed="true">
+    <Position X="97.25" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\impl\instance\ImpactingDecisionReferenceImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.dmn.impl.instance.ImportedElementImpl" Collapsed="true">
+    <Position X="79.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\impl\instance\ImportedElementImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.dmn.impl.instance.ImportedValuesImpl" Collapsed="true">
+    <Position X="137.75" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAgAAAAAAAAAACAAAAAAAAAAAAAAFAAAAAAAA=</HashCode>
+      <FileName>Dmn\impl\instance\ImportedValuesImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.dmn.impl.instance.ImportImpl" Collapsed="true">
+    <Position X="137.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAEAAAAgAAAAAAAQAAAAAAAAAAAYAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Dmn\impl\instance\ImportImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.dmn.impl.instance.InformationItemImpl" Collapsed="true">
+    <Position X="72.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAA=</HashCode>
+      <FileName>Dmn\impl\instance\InformationItemImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.dmn.impl.instance.InformationRequirementImpl" Collapsed="true">
+    <Position X="149" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAQABAAAAABAAAAABAAAAAA=</HashCode>
+      <FileName>Dmn\impl\instance\InformationRequirementImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.dmn.impl.instance.InputClauseImpl" Collapsed="true">
+    <Position X="47.75" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>DAAAAAAAgAAAAAAAAAAQAAABAAAAAAAAAAABIAAAAAA=</HashCode>
+      <FileName>Dmn\impl\instance\InputClauseImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.dmn.impl.instance.InputDataImpl" Collapsed="true">
+    <Position X="68" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAIAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\impl\instance\InputDataImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.dmn.impl.instance.InputDataReferenceImpl" Collapsed="true">
+    <Position X="131" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\impl\instance\InputDataReferenceImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.dmn.impl.instance.InputDecisionReferenceImpl" Collapsed="true">
+    <Position X="83.75" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\impl\instance\InputDecisionReferenceImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.dmn.impl.instance.InputEntryImpl" Collapsed="true">
+    <Position X="38.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\impl\instance\InputEntryImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.dmn.impl.instance.InputExpressionImpl" Collapsed="true">
+    <Position X="29.75" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\impl\instance\InputExpressionImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.dmn.impl.instance.InputImpl" Collapsed="true">
+    <Position X="47.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\impl\instance\InputImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.dmn.impl.instance.InputValuesImpl" Collapsed="true">
+    <Position X="41" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\impl\instance\InputValuesImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.dmn.impl.instance.InvocationImpl" Collapsed="true">
+    <Position X="20.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAEAAAAAAAEAAAAAAAAAAQAEAAAAAAAAA=</HashCode>
+      <FileName>Dmn\impl\instance\InvocationImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.dmn.impl.instance.ItemComponentImpl" Collapsed="true">
+    <Position X="59" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\impl\instance\ItemComponentImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.dmn.impl.instance.ItemDefinitionImpl" Collapsed="true">
+    <Position X="59" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEEAAgAQAQAEAAAAAAAEAAAAACAAAAAAAAAIhAAA=</HashCode>
+      <FileName>Dmn\impl\instance\ItemDefinitionImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.dmn.impl.instance.ItemDefinitionReferenceImpl" Collapsed="true">
+    <Position X="106.25" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\impl\instance\ItemDefinitionReferenceImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.dmn.impl.instance.KnowledgeRequirementImpl" Collapsed="true">
+    <Position X="142.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAkAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\impl\instance\KnowledgeRequirementImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.dmn.impl.instance.KnowledgeSourceImpl" Collapsed="true">
+    <Position X="65.75" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAACAgAAAAAAAAgAAARAAAAAAQAAAAQAAAAEAAAA=</HashCode>
+      <FileName>Dmn\impl\instance\KnowledgeSourceImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.dmn.impl.instance.ListImpl" Collapsed="true">
+    <Position X="27.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAIgAAAAA=</HashCode>
+      <FileName>Dmn\impl\instance\ListImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.dmn.impl.instance.LiteralExpressionImpl" Collapsed="true">
+    <Position X="32" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAwAAAAAAAAAACAAAAAAAAAIAAAABACAAAQAA=</HashCode>
+      <FileName>Dmn\impl\instance\LiteralExpressionImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.dmn.impl.instance.NamedElementImpl" Collapsed="true">
+    <Position X="63.5" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgACAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\impl\instance\NamedElementImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.dmn.impl.instance.OrganizationUnitImpl" Collapsed="true">
+    <Position X="52.25" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAgAAAAAAAAAAAACAAACAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Dmn\impl\instance\OrganizationUnitImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.dmn.impl.instance.OutputClauseImpl" Collapsed="true">
+    <Position X="36.5" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAgACAAgAAAAAAAAQAAAAEAAIAAAAAAAADAAA=</HashCode>
+      <FileName>Dmn\impl\instance\OutputClauseImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.dmn.impl.instance.OutputDecisionReferenceImpl" Collapsed="true">
+    <Position X="88.25" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\impl\instance\OutputDecisionReferenceImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.dmn.impl.instance.OutputEntryImpl" Collapsed="true">
+    <Position X="34.25" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\impl\instance\OutputEntryImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.dmn.impl.instance.OutputImpl" Collapsed="true">
+    <Position X="36.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\impl\instance\OutputImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.dmn.impl.instance.OutputValuesImpl" Collapsed="true">
+    <Position X="43.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\impl\instance\OutputValuesImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.dmn.impl.instance.OwnerReferenceImpl" Collapsed="true">
+    <Position X="101.75" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\impl\instance\OwnerReferenceImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.dmn.impl.instance.ParameterReferenceImpl" Collapsed="true">
+    <Position X="104" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\impl\instance\ParameterReferenceImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.dmn.impl.instance.PerformanceIndicatorImpl" Collapsed="true">
+    <Position X="54.5" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAgAAgAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\impl\instance\PerformanceIndicatorImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.dmn.impl.instance.QuestionImpl" Collapsed="true">
+    <Position X="144.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\impl\instance\QuestionImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.dmn.impl.instance.RelationImpl" Collapsed="true">
+    <Position X="25.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAgAAAAEAAAAAAAAAAAAAAAAAAAAAAAAgAAgA=</HashCode>
+      <FileName>Dmn\impl\instance\RelationImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.dmn.impl.instance.RequiredAuthorityReferenceImpl" Collapsed="true">
+    <Position X="115.25" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\impl\instance\RequiredAuthorityReferenceImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.dmn.impl.instance.RequiredDecisionReferenceImpl" Collapsed="true">
+    <Position X="124.25" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\impl\instance\RequiredDecisionReferenceImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.dmn.impl.instance.RequiredInputReferenceImpl" Collapsed="true">
+    <Position X="133.25" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\impl\instance\RequiredInputReferenceImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.dmn.impl.instance.RequiredKnowledgeReferenceImpl" Collapsed="true">
+    <Position X="86" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\impl\instance\RequiredKnowledgeReferenceImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.dmn.impl.instance.RowImpl" Collapsed="true">
+    <Position X="27.5" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\impl\instance\RowImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.dmn.impl.instance.RuleImpl" Collapsed="true">
+    <Position X="14" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\impl\instance\RuleImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.dmn.impl.instance.SourceRefImpl" Collapsed="true">
+    <Position X="90.5" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\impl\instance\SourceRefImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.dmn.impl.instance.SupportedObjectiveReferenceImpl" Collapsed="true">
+    <Position X="95" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\impl\instance\SupportedObjectiveReferenceImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.dmn.impl.instance.TargetRefImpl" Collapsed="true">
+    <Position X="99.5" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\impl\instance\TargetRefImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.dmn.impl.instance.TextAnnotationImpl" Collapsed="true">
+    <Position X="11.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAgAAAAAAAAAAAAAAAAAAAAIAAAIAACAAAAAA=</HashCode>
+      <FileName>Dmn\impl\instance\TextAnnotationImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.dmn.impl.instance.TextImpl" Collapsed="true">
+    <Position X="135.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\impl\instance\TextImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.dmn.impl.instance.TypeImpl" Collapsed="true">
+    <Position X="140" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\impl\instance\TypeImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.dmn.impl.instance.TypeRefImpl" Collapsed="true">
+    <Position X="146.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\impl\instance\TypeRefImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.dmn.impl.instance.UnaryTestsImpl" Collapsed="true">
+    <Position X="42" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAACAAAAAAAAAIAAAABACAAAAAA=</HashCode>
+      <FileName>Dmn\impl\instance\UnaryTestsImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.dmn.impl.instance.UsingProcessReferenceImpl" Collapsed="true">
+    <Position X="117.5" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\impl\instance\UsingProcessReferenceImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.dmn.impl.instance.UsingTaskReferenceImpl" Collapsed="true">
+    <Position X="126.5" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\impl\instance\UsingTaskReferenceImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.dmn.impl.instance.VariableImpl" Collapsed="true">
+    <Position X="74.75" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\impl\instance\VariableImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="org.camunda.bpm.model.dmn.DmnModelInstance" Collapsed="true">
+    <Position X="153.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\DmnModelInstance.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.dmn.Query&lt;T&gt;" Collapsed="true">
+    <Position X="155.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIgAAAAAAABAABAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\Query.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.dmn.instance.AllowedAnswers" Collapsed="true">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\instance\AllowedAnswers.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.dmn.instance.AllowedValues" Collapsed="true">
+    <Position X="72.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\instance\AllowedValues.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.dmn.instance.Artifact" Collapsed="true">
+    <Position X="44.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\instance\Artifact.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.dmn.instance.Association" Collapsed="true">
+    <Position X="43.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAACAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Dmn\instance\Association.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.dmn.instance.AuthorityRequirement" Collapsed="true">
+    <Position X="5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQABAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Dmn\instance\AuthorityRequirement.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.dmn.instance.Binding" Collapsed="true">
+    <Position X="7.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\instance\Binding.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.dmn.instance.BusinessContextElement" Collapsed="true">
+    <Position X="17.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\instance\BusinessContextElement.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.dmn.instance.BusinessKnowledgeModel" Collapsed="true">
+    <Position X="27.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAgAAAAAAgAAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Dmn\instance\BusinessKnowledgeModel.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.dmn.instance.Column" Collapsed="true">
+    <Position X="38.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\instance\Column.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.dmn.instance.Context" Collapsed="true">
+    <Position X="63.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\instance\Context.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.dmn.instance.ContextEntry" Collapsed="true">
+    <Position X="140" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAQAAAAAAAA=</HashCode>
+      <FileName>Dmn\instance\ContextEntry.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.dmn.instance.Decision" Collapsed="true">
+    <Position X="29.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAEAAAAABAAAAAgAgAQgACAQAAAAUAAQAAAAAAEA=</HashCode>
+      <FileName>Dmn\instance\Decision.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.dmn.instance.DecisionMadeReference" Collapsed="true">
+    <Position X="126.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\instance\DecisionMadeReference.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.dmn.instance.DecisionMakerReference" Collapsed="true">
+    <Position X="131" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\instance\DecisionMakerReference.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.dmn.instance.DecisionOwnedReference" Collapsed="true">
+    <Position X="86" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\instance\DecisionOwnedReference.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.dmn.instance.DecisionOwnerReference" Collapsed="true">
+    <Position X="95" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\instance\DecisionOwnerReference.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.dmn.instance.DecisionRule" Collapsed="true">
+    <Position X="47.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAQAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\instance\DecisionRule.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.dmn.instance.DecisionService" Collapsed="true">
+    <Position X="14" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABCCAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\instance\DecisionService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.dmn.instance.DecisionTable" Collapsed="true">
+    <Position X="56.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BgAABAAAAAAAAAAAAAAQAAAAEAAAAAAAAAIACAAAAAA=</HashCode>
+      <FileName>Dmn\instance\DecisionTable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.dmn.instance.DefaultOutputEntry" Collapsed="true">
+    <Position X="50" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\instance\DefaultOutputEntry.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.dmn.instance.Definitions" Collapsed="true">
+    <Position X="20.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAIAAACAAAEEAAQGAAAAAAAAKABAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\instance\Definitions.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.dmn.instance.IDescription" Collapsed="true">
+    <Position X="9.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\instance\Description.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.dmn.instance.IDmnElement" Collapsed="true">
+    <Position X="45.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAFAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\instance\DmnElement.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.dmn.instance.DmnElementReference" Collapsed="true">
+    <Position X="110.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\instance\DmnElementReference.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.dmn.instance.IDmnModelElementInstance" Collapsed="true">
+    <Position X="75.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\instance\DmnModelElementInstance.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.dmn.instance.DrgElement" Collapsed="true">
+    <Position X="28.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\instance\DrgElement.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.dmn.instance.DrgElementReference" Collapsed="true">
+    <Position X="128.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\instance\DrgElementReference.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.dmn.instance.ElementCollection" Collapsed="true">
+    <Position X="41" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\instance\ElementCollection.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.dmn.instance.EncapsulatedDecisionReference" Collapsed="true">
+    <Position X="88.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\instance\EncapsulatedDecisionReference.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.dmn.instance.EncapsulatedLogic" Collapsed="true">
+    <Position X="59" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\instance\EncapsulatedLogic.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.dmn.instance.Expression" Collapsed="true">
+    <Position X="59" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Dmn\instance\Expression.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.dmn.instance.ExtensionElements" Collapsed="true">
+    <Position X="2.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAQAAAAAAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>Dmn\instance\ExtensionElements.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.dmn.instance.FormalParameter" Collapsed="true">
+    <Position X="36.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\instance\FormalParameter.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.dmn.instance.FunctionDefinition" Collapsed="true">
+    <Position X="59" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\instance\FunctionDefinition.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.dmn.instance.ImpactedPerformanceIndicatorReference" Collapsed="true">
+    <Position X="110.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\instance\ImpactedPerformanceIndicatorReference.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.dmn.instance.ImpactingDecisionReference" Collapsed="true">
+    <Position X="115.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\instance\ImpactingDecisionReference.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.dmn.instance.Import" Collapsed="true">
+    <Position X="81.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Dmn\instance\Import.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.dmn.instance.ImportedElement" Collapsed="true">
+    <Position X="137.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\instance\ImportedElement.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.dmn.instance.ImportedValues" Collapsed="true">
+    <Position X="81.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Dmn\instance\ImportedValues.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.dmn.instance.InformationItem" Collapsed="true">
+    <Position X="36.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Dmn\instance\InformationItem.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.dmn.instance.InformationRequirement" Collapsed="true">
+    <Position X="151.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\instance\InformationRequirement.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.dmn.instance.Input" Collapsed="true">
+    <Position X="11.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\instance\Input.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.dmn.instance.InputClause" Collapsed="true">
+    <Position X="11.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Dmn\instance\InputClause.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.dmn.instance.InputData" Collapsed="true">
+    <Position X="25.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\instance\InputData.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.dmn.instance.InputDataReference" Collapsed="true">
+    <Position X="99.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\instance\InputDataReference.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.dmn.instance.InputDecisionReference" Collapsed="true">
+    <Position X="104" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\instance\InputDecisionReference.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.dmn.instance.InputEntry" Collapsed="true">
+    <Position X="74.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\instance\InputEntry.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.dmn.instance.InputExpression" Collapsed="true">
+    <Position X="52.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\instance\InputExpression.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.dmn.instance.InputValues" Collapsed="true">
+    <Position X="77" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\instance\InputValues.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.dmn.instance.Invocation" Collapsed="true">
+    <Position X="61.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAEAAAAAAAAA=</HashCode>
+      <FileName>Dmn\instance\Invocation.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.dmn.instance.ItemComponent" Collapsed="true">
+    <Position X="23" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\instance\ItemComponent.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.dmn.instance.ItemDefinition" Collapsed="true">
+    <Position X="23" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAQAAAAAAAAAAAAAAACAAAAAAAAAIBAAA=</HashCode>
+      <FileName>Dmn\instance\ItemDefinition.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.dmn.instance.ItemDefinitionReference" Collapsed="true">
+    <Position X="124.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\instance\ItemDefinitionReference.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.dmn.instance.KnowledgeRequirement" Collapsed="true">
+    <Position X="144.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\instance\KnowledgeRequirement.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.dmn.instance.KnowledgeSource" Collapsed="true">
+    <Position X="32" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAACAAAAAAAAAAgAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Dmn\instance\KnowledgeSource.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.dmn.instance.List" Collapsed="true">
+    <Position X="68" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Dmn\instance\List.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.dmn.instance.LiteralExpression" Collapsed="true">
+    <Position X="52.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAACAAAQAA=</HashCode>
+      <FileName>Dmn\instance\LiteralExpression.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.dmn.instance.NamedElement" Collapsed="true">
+    <Position X="27.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\instance\NamedElement.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.dmn.instance.OrganizationUnit" Collapsed="true">
+    <Position X="16.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\instance\OrganizationUnit.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.dmn.instance.Output" Collapsed="true">
+    <Position X="70.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\instance\Output.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.dmn.instance.IOutputClause" Collapsed="true">
+    <Position X="70.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAEAAIAAAAAAAABAAA=</HashCode>
+      <FileName>Dmn\instance\OutputClause.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.dmn.instance.OutputDecisionReference" Collapsed="true">
+    <Position X="106.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\instance\OutputDecisionReference.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.dmn.instance.OutputEntry" Collapsed="true">
+    <Position X="54.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\instance\OutputEntry.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.dmn.instance.IOutputValues" Collapsed="true">
+    <Position X="79.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\instance\OutputValues.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.dmn.instance.OwnerReference" Collapsed="true">
+    <Position X="119.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\instance\OwnerReference.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.dmn.instance.ParameterReference" Collapsed="true">
+    <Position X="122" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\instance\ParameterReference.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.dmn.instance.PerformanceIndicator" Collapsed="true">
+    <Position X="18.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\instance\PerformanceIndicator.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.dmn.instance.Question" Collapsed="true">
+    <Position X="146.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\instance\Question.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.dmn.instance.Relation" Collapsed="true">
+    <Position X="65.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Dmn\instance\Relation.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.dmn.instance.RequiredAuthorityReference" Collapsed="true">
+    <Position X="133.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\instance\RequiredAuthorityReference.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.dmn.instance.RequiredDecisionReference" Collapsed="true">
+    <Position X="90.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\instance\RequiredDecisionReference.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.dmn.instance.RequiredInputReference" Collapsed="true">
+    <Position X="97.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\instance\RequiredInputReference.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.dmn.instance.RequiredKnowledgeReference" Collapsed="true">
+    <Position X="101.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\instance\RequiredKnowledgeReference.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.dmn.instance.Row" Collapsed="true">
+    <Position X="68" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\instance\Row.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.dmn.instance.Rule" Collapsed="true">
+    <Position X="47.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\instance\Rule.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.dmn.instance.SourceRef" Collapsed="true">
+    <Position X="108.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\instance\SourceRef.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.dmn.instance.SupportedObjectiveReference" Collapsed="true">
+    <Position X="113" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\instance\SupportedObjectiveReference.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.dmn.instance.TargetRef" Collapsed="true">
+    <Position X="117.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\instance\TargetRef.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.dmn.instance.IText" Collapsed="true">
+    <Position X="83.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\instance\Text.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.dmn.instance.TextAnnotation" Collapsed="true">
+    <Position X="45.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Dmn\instance\TextAnnotation.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.dmn.instance.Type" Collapsed="true">
+    <Position X="142.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\instance\Type.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.dmn.instance.TypeRef" Collapsed="true">
+    <Position X="149" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\instance\TypeRef.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.dmn.instance.IUnaryTests" Collapsed="true">
+    <Position X="75.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Dmn\instance\UnaryTests.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.dmn.instance.UsingProcessReference" Collapsed="true">
+    <Position X="135.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\instance\UsingProcessReference.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.dmn.instance.UsingTaskReference" Collapsed="true">
+    <Position X="92.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\instance\UsingTaskReference.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.dmn.instance.Variable" Collapsed="true">
+    <Position X="34.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dmn\instance\Variable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="org.camunda.bpm.model.dmn.AssociationDirection" Collapsed="true">
+    <Position X="153.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAEAAIA=</HashCode>
+      <FileName>Dmn\AssociationDirection.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="org.camunda.bpm.model.dmn.BuiltinAggregator" Collapsed="true">
+    <Position X="155.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAAAAAAAEBAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Dmn\BuiltinAggregator.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,3555 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="org.camunda.bpm.model.bpmn.Bpmn" Collapsed="true">
+    <Position X="415" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAgAIABICAgEAAAAAABQAoQEIoAADAAAgAAACKA=</HashCode>
+      <FileName>Bpmn\Bpmn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.BpmnModelException" Collapsed="true">
+    <Position X="413.25" Y="1.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\BpmnModelException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.TransactionMethod" Collapsed="true">
+    <Position X="416.75" Y="2.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>QAAAIAACAAAAEAAEABAACAAQAAgAADAAAAAAAQgQAAA=</HashCode>
+      <FileName>Bpmn\TransactionMethod.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.builder.AbstractActivityBuilder&lt;B, E&gt;" Collapsed="true">
+    <Position X="35.5" Y="23" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAIAAgAACAAAAAAAAAAAAAAAAAAAAEgAAAAAAAAAAEA=</HashCode>
+      <FileName>Bpmn\builder\AbstractActivityBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.builder.AbstractBaseElementBuilder&lt;B, E&gt;" Collapsed="true">
+    <Position X="29.75" Y="18.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>IAggABkAAAADAgQAYBACBgAAIAUEABAIAQAAAAAhAgA=</HashCode>
+      <FileName>Bpmn\builder\AbstractBaseElementBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.builder.AbstractBoundaryEventBuilder&lt;B&gt;" Collapsed="true">
+    <Position X="11.75" Y="26" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAEAAgAAIAAAAAAAAQAAAAAAAAQ=</HashCode>
+      <FileName>Bpmn\builder\AbstractBoundaryEventBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.builder.AbstractBpmnModelElementBuilder&lt;B, E&gt;" Collapsed="true">
+    <Position X="32" Y="17.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAFQAAAAIACAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\builder\AbstractBpmnModelElementBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.builder.AbstractBusinessRuleTaskBuilder&lt;B&gt;" Collapsed="true">
+    <Position X="41" Y="26" Width="3" />
+    <TypeIdentifier>
+      <HashCode>QgAAAAAQAAAAAAAAAAAgAAQQIAkAAAAAAQCAAAAAIAA=</HashCode>
+      <FileName>Bpmn\builder\AbstractBusinessRuleTaskBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.builder.AbstractCallableElementBuilder&lt;B, E&gt;" Collapsed="true">
+    <Position X="59" Y="21.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\builder\AbstractCallableElementBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.builder.AbstractCallActivityBuilder&lt;B&gt;" Collapsed="true">
+    <Position X="45.5" Y="24.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAgAIAAQAACACAAAAANAEAAAABAAAABAAQAA=</HashCode>
+      <FileName>Bpmn\builder\AbstractCallActivityBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.builder.AbstractCamundaFormFieldBuilder&lt;P, B&gt;" Collapsed="true">
+    <Position X="62.5" Y="18.75" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AgACAAAAAAACAABAAAAAAAAAAAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>Bpmn\builder\AbstractCamundaFormFieldBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.builder.AbstractCatchEventBuilder&lt;B, E&gt;" Collapsed="true">
+    <Position X="9.5" Y="24.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAIAAAAAAAAAAACAgAAEAAAAAAAACAAAAQAAAASA=</HashCode>
+      <FileName>Bpmn\builder\AbstractCatchEventBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.builder.AbstractCompensateEventDefinitionBuilder&lt;B&gt;" Collapsed="true">
+    <Position X="50" Y="21.75" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAQAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Bpmn\builder\AbstractCompensateEventDefinitionBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.builder.AbstractComplexGatewayBuilder&lt;B&gt;" Collapsed="true">
+    <Position X="14" Y="24.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\builder\AbstractComplexGatewayBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.builder.AbstractConditionalEventDefinitionBuilder&lt;B&gt;" Collapsed="true">
+    <Position X="52.25" Y="21.75" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAIAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\builder\AbstractConditionalEventDefinitionBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.builder.AbstractEmbeddedSubProcessBuilder&lt;B, E&gt;" Collapsed="true">
+    <Position X="413.25" Y="0.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\builder\AbstractEmbeddedSubProcessBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.builder.AbstractEndEventBuilder&lt;B&gt;" Collapsed="true">
+    <Position X="2.75" Y="26" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\builder\AbstractEndEventBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.builder.AbstractErrorEventDefinitionBuilder&lt;B&gt;" Collapsed="true">
+    <Position X="54.5" Y="21.75" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAABAAAAAAAAAAgAAAAAAAAgA=</HashCode>
+      <FileName>Bpmn\builder\AbstractErrorEventDefinitionBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.builder.AbstractEventBasedGatewayBuilder&lt;B&gt;" Collapsed="true">
+    <Position X="16.25" Y="24.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAEAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\builder\AbstractEventBasedGatewayBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.builder.AbstractEventBuilder&lt;B, E&gt;" Collapsed="true">
+    <Position X="7.25" Y="23" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Bpmn\builder\AbstractEventBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.builder.AbstractExclusiveGatewayBuilder&lt;B&gt;" Collapsed="true">
+    <Position X="18.5" Y="24.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\builder\AbstractExclusiveGatewayBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.builder.AbstractFlowElementBuilder&lt;B, E&gt;" Collapsed="true">
+    <Position X="23" Y="20.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\builder\AbstractFlowElementBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.builder.AbstractFlowNodeBuilder&lt;B, E&gt;" Collapsed="true">
+    <Position X="24.25" Y="21.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>hAAAUoAiAEAAAYgREAACNAAAAQQAAYAQgQQAAABCwEA=</HashCode>
+      <FileName>Bpmn\builder\AbstractFlowNodeBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.builder.AbstractGatewayBuilder&lt;B, E&gt;" Collapsed="true">
+    <Position X="18.5" Y="23" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\builder\AbstractGatewayBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.builder.AbstractInclusiveGatewayBuilder&lt;B&gt;" Collapsed="true">
+    <Position X="20.75" Y="24.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\builder\AbstractInclusiveGatewayBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.builder.AbstractIntermediateCatchEventBuilder&lt;B&gt;" Collapsed="true">
+    <Position X="9.5" Y="26" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\builder\AbstractIntermediateCatchEventBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.builder.AbstractIntermediateThrowEventBuilder&lt;B&gt;" Collapsed="true">
+    <Position X="5" Y="26" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\builder\AbstractIntermediateThrowEventBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.builder.AbstractManualTaskBuilder&lt;B&gt;" Collapsed="true">
+    <Position X="38.75" Y="26" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\builder\AbstractManualTaskBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.builder.AbstractMessageEventDefinitionBuilder&lt;B&gt;" Collapsed="true">
+    <Position X="56.75" Y="21.75" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAACAAAAAAiA=</HashCode>
+      <FileName>Bpmn\builder\AbstractMessageEventDefinitionBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.builder.AbstractMultiInstanceLoopCharacteristicsBuilder&lt;B&gt;" Collapsed="true">
+    <Position X="47.75" Y="20.25" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAABAgAAAAAAAAAAAAAAAAgAgAAAAAAIACAAAAAAAA=</HashCode>
+      <FileName>Bpmn\builder\AbstractMultiInstanceLoopCharacteristicsBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.builder.AbstractParallelGatewayBuilder&lt;B&gt;" Collapsed="true">
+    <Position X="23" Y="24.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\builder\AbstractParallelGatewayBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.builder.AbstractProcessBuilder&lt;B&gt;" Collapsed="true">
+    <Position X="59" Y="23" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAQAAAAAAAAAAAAAAIAAAAAgIAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\builder\AbstractProcessBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.builder.AbstractReceiveTaskBuilder&lt;B&gt;" Collapsed="true">
+    <Position X="43.25" Y="26" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAEAAAAAAAAAIAABAAA=</HashCode>
+      <FileName>Bpmn\builder\AbstractReceiveTaskBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.builder.AbstractRootElementBuilder&lt;B, E&gt;" Collapsed="true">
+    <Position X="54.5" Y="20.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\builder\AbstractRootElementBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.builder.AbstractScriptTaskBuilder&lt;B&gt;" Collapsed="true">
+    <Position X="29.75" Y="26" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAQAAAAAAAAAAACAAAAAAAgAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\builder\AbstractScriptTaskBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.builder.AbstractSendTaskBuilder&lt;B&gt;" Collapsed="true">
+    <Position X="32" Y="26" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAQQIAkAAAAAAACAIAABICA=</HashCode>
+      <FileName>Bpmn\builder\AbstractSendTaskBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.builder.AbstractSequenceFlowBuilder&lt;B&gt;" Collapsed="true">
+    <Position X="0.5" Y="21.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIIAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\builder\AbstractSequenceFlowBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.builder.AbstractServiceTaskBuilder&lt;B&gt;" Collapsed="true">
+    <Position X="34.25" Y="26" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAQQIAkAAAAAAACAAAAAIAA=</HashCode>
+      <FileName>Bpmn\builder\AbstractServiceTaskBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.builder.AbstractStartEventBuilder&lt;B&gt;" Collapsed="true">
+    <Position X="7.25" Y="26" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAABAAAAAAAAAAGAAAAAABAIAAAAQQAAAAAAAIQ=</HashCode>
+      <FileName>Bpmn\builder\AbstractStartEventBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.builder.AbstractSubProcessBuilder&lt;B&gt;" Collapsed="true">
+    <Position X="26.5" Y="24.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Bpmn\builder\AbstractSubProcessBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.builder.AbstractTaskBuilder&lt;B, E&gt;" Collapsed="true">
+    <Position X="36.5" Y="24.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\builder\AbstractTaskBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.builder.AbstractThrowEventBuilder&lt;B, E&gt;" Collapsed="true">
+    <Position X="4" Y="24.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAAAAAAACAAAQAAAAACQ=</HashCode>
+      <FileName>Bpmn\builder\AbstractThrowEventBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.builder.AbstractTransactionBuilder&lt;B&gt;" Collapsed="true">
+    <Position X="25.25" Y="26" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\builder\AbstractTransactionBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.builder.AbstractUserTaskBuilder&lt;B&gt;" Collapsed="true">
+    <Position X="36.5" Y="26" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAABAAAAAAAAEIQAAIQALAAAhAAIA=</HashCode>
+      <FileName>Bpmn\builder\AbstractUserTaskBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.builder.BoundaryEventBuilder" Collapsed="true">
+    <Position X="11.75" Y="27.25" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\builder\BoundaryEventBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.builder.BusinessRuleTaskBuilder" Collapsed="true">
+    <Position X="41" Y="27.25" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\builder\BusinessRuleTaskBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.builder.CallActivityBuilder" Collapsed="true">
+    <Position X="45.5" Y="26" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\builder\CallActivityBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.builder.CamundaStartEventFormFieldBuilder" Collapsed="true">
+    <Position X="61.25" Y="20.25" Width="5.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\builder\CamundaStartEventFormFieldBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.builder.CamundaUserTaskFormFieldBuilder" Collapsed="true">
+    <Position X="63.5" Y="20.25" Width="5.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\builder\CamundaUserTaskFormFieldBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.builder.CompensateEventDefinitionBuilder" Collapsed="true">
+    <Position X="50" Y="23" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\builder\CompensateEventDefinitionBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.builder.ComplexGatewayBuilder" Collapsed="true">
+    <Position X="14" Y="26" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\builder\ComplexGatewayBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.builder.ConditionalEventDefinitionBuilder" Collapsed="true">
+    <Position X="52.25" Y="23" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\builder\ConditionalEventDefinitionBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.builder.EmbeddedSubProcessBuilder" Collapsed="true">
+    <Position X="413.25" Y="2.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\builder\EmbeddedSubProcessBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.builder.EndEventBuilder" Collapsed="true">
+    <Position X="2.75" Y="27.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\builder\EndEventBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.builder.ErrorEventDefinitionBuilder" Collapsed="true">
+    <Position X="54.5" Y="23" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\builder\ErrorEventDefinitionBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.builder.EventBasedGatewayBuilder" Collapsed="true">
+    <Position X="16.25" Y="26" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\builder\EventBasedGatewayBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.builder.ExclusiveGatewayBuilder" Collapsed="true">
+    <Position X="18.5" Y="26" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\builder\ExclusiveGatewayBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.builder.InclusiveGatewayBuilder" Collapsed="true">
+    <Position X="20.75" Y="26" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\builder\InclusiveGatewayBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.builder.IntermediateCatchEventBuilder" Collapsed="true">
+    <Position X="9.5" Y="27.25" Width="4.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\builder\IntermediateCatchEventBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.builder.IntermediateThrowEventBuilder" Collapsed="true">
+    <Position X="5" Y="27.25" Width="4.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\builder\IntermediateThrowEventBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.builder.ManualTaskBuilder" Collapsed="true">
+    <Position X="38.75" Y="27.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\builder\ManualTaskBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.builder.MessageEventDefinitionBuilder" Collapsed="true">
+    <Position X="56.75" Y="23" Width="4.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\builder\MessageEventDefinitionBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.builder.MultiInstanceLoopCharacteristicsBuilder" Collapsed="true">
+    <Position X="47.75" Y="21.75" Width="5.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\builder\MultiInstanceLoopCharacteristicsBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.builder.ParallelGatewayBuilder" Collapsed="true">
+    <Position X="23" Y="26" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\builder\ParallelGatewayBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.builder.ProcessBuilder" Collapsed="true">
+    <Position X="59" Y="24.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\builder\ProcessBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.builder.ReceiveTaskBuilder" Collapsed="true">
+    <Position X="43.25" Y="27.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\builder\ReceiveTaskBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.builder.ScriptTaskBuilder" Collapsed="true">
+    <Position X="29.75" Y="27.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\builder\ScriptTaskBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.builder.SendTaskBuilder" Collapsed="true">
+    <Position X="32" Y="27.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\builder\SendTaskBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.builder.SequenceFlowBuilder" Collapsed="true">
+    <Position X="0.5" Y="23" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\builder\SequenceFlowBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.builder.ServiceTaskBuilder" Collapsed="true">
+    <Position X="34.25" Y="27.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\builder\ServiceTaskBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.builder.StartEventBuilder" Collapsed="true">
+    <Position X="7.25" Y="27.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\builder\StartEventBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.builder.SubProcessBuilder" Collapsed="true">
+    <Position X="27.5" Y="26" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\builder\SubProcessBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.builder.TransactionBuilder" Collapsed="true">
+    <Position X="25.25" Y="27.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\builder\TransactionBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.builder.UserTaskBuilder" Collapsed="true">
+    <Position X="36.5" Y="27.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\builder\UserTaskBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.BpmnModelConstants" Collapsed="true">
+    <Position X="416.75" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>7P773/r9/1v7/6/bHD////e2/6//+6l/Nb7//f7/6fc=</HashCode>
+      <FileName>Bpmn\impl\BpmnModelConstants.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.BpmnModelInstanceImpl" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="415" Y="1.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\BpmnModelInstanceImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.BpmnParser" Collapsed="true">
+    <Position X="416.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAEAAAAAAAABAAAAAAAAQAAEAAAAAAAIEAAAA=</HashCode>
+      <FileName>Bpmn\impl\BpmnParser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.QueryImpl&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="415" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIgAAAAAAABAABEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\QueryImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.ActivationConditionImpl" Collapsed="true">
+    <Position X="248.75" Y="4.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\ActivationConditionImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.ActivityImpl" Collapsed="true">
+    <Position X="75.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>TCAAABAAgABAAgABgAAAIAAgQACAAAAAgAARAIQCAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\ActivityImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.ArtifactImpl" Collapsed="true">
+    <Position X="130.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\ArtifactImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.AssignmentImpl" Collapsed="true">
+    <Position X="136.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAQAAAAgAAAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\AssignmentImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.AssociationImpl" Collapsed="true">
+    <Position X="131.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAgiAAAAAAAAAAACAAAAAAIIAAAAAAIAAEAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\AssociationImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.AuditingImpl" Collapsed="true">
+    <Position X="194.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\AuditingImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.BaseElementImpl" Collapsed="true">
+    <Position X="176.75" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAhAAAAACAkAAAAAAAAAAAAAAAACAAAAAMAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\BaseElementImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.BoundaryEventImpl" Collapsed="true">
+    <Position X="102.5" Y="9" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAgAQQAAAAAAAAMAAAAAQIAAAAQAAAAgAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\BoundaryEventImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.BpmnModelElementInstanceImpl" Collapsed="true">
+    <Position X="214" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\BpmnModelElementInstanceImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.BusinessRuleTaskImpl" Collapsed="true">
+    <Position X="75.5" Y="9" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ACAAQMIIggBAAGBAAQDgAQAAEAAIEBAIAAAgAAEEgAA=</HashCode>
+      <FileName>Bpmn\impl\instance\BusinessRuleTaskImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.CallableElementImpl" Collapsed="true">
+    <Position X="154.25" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgACAAAAAAAAAAGQAAAAAAAIAgAAAAAQAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\CallableElementImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.CallActivityImpl" Collapsed="true">
+    <Position X="66.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BABIAACCgCAAIAAAGYAgAAAEAAZMAAAQFEAAAgAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\CallActivityImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.CallConversationImpl" Collapsed="true">
+    <Position X="203.75" Y="4.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAgAAAAAAAAAAAAAACAAAgAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Bpmn\impl\instance\CallConversationImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.CancelEventDefinitionImpl" Collapsed="true">
+    <Position X="181.25" Y="6.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\CancelEventDefinitionImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.CatchEventImpl" Collapsed="true">
+    <Position X="104.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAggEAEAAAAAAIAAAAAAACBAAEEAAAAAACAgAE=</HashCode>
+      <FileName>Bpmn\impl\instance\CatchEventImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.CategoryValueImpl" Collapsed="true">
+    <Position X="242" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\CategoryValueImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.CategoryValueRef" Collapsed="true">
+    <Position X="365.75" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\CategoryValueRef.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.ChildLaneSet" Collapsed="true">
+    <Position X="145.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\ChildLaneSet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.CollaborationImpl" Collapsed="true">
+    <Position X="190.25" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>BAAAAIBAgMCAQAAAAAgAgAQDEAAAAAAMASAEAACBAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\CollaborationImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.CompensateEventDefinitionImpl" Collapsed="true">
+    <Position X="183.5" Y="6.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAgAAAAAAAAAAAAAAAAAAAAECAAAAAAEAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\CompensateEventDefinitionImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.CompletionConditionImpl" Collapsed="true">
+    <Position X="275.75" Y="4.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\CompletionConditionImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.ComplexBehaviorDefinitionImpl" Collapsed="true">
+    <Position X="284.75" Y="3.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\ComplexBehaviorDefinitionImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.ComplexGatewayImpl" Collapsed="true">
+    <Position X="86.75" Y="7.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAgAAAAAAAAAAAIAQEAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\ComplexGatewayImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.ConditionalEventDefinitionImpl" Collapsed="true">
+    <Position X="165.5" Y="6.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgICACAAQAAAAAAAAAQAAAAAAAAAAgAAAAQA=</HashCode>
+      <FileName>Bpmn\impl\instance\ConditionalEventDefinitionImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.ConditionExpressionImpl" Collapsed="true">
+    <Position X="255.5" Y="6.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAgAAAAAAAAAAAAAAAgAAAAAAAAQCAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\ConditionExpressionImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.ConditionImpl" Collapsed="true">
+    <Position X="251" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\ConditionImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.ConversationAssociationImpl" Collapsed="true">
+    <Position X="143" Y="3.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAgAAAAAAAAAAAAAAAgAAAAIAAEAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\ConversationAssociationImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.ConversationImpl" Collapsed="true">
+    <Position X="201.5" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\ConversationImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.ConversationLinkImpl" Collapsed="true">
+    <Position X="199.25" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgiCAAAAAAAAAACQAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\ConversationLinkImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.ConversationNodeImpl" Collapsed="true">
+    <Position X="203.75" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAgACAAAAAAAAggAQBAAAAAAAIACAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\ConversationNodeImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.CorrelationKeyImpl" Collapsed="true">
+    <Position X="210.5" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAgACAAAAIAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\CorrelationKeyImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.CorrelationPropertyBindingImpl" Collapsed="true">
+    <Position X="215" Y="3.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAQAAAIAAEAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\CorrelationPropertyBindingImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.CorrelationPropertyImpl" Collapsed="true">
+    <Position X="156.5" Y="4.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgACAAAAAAAAAAAQAAAAAAAAAAQaAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\CorrelationPropertyImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.CorrelationPropertyRef" Collapsed="true">
+    <Position X="332" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\CorrelationPropertyRef.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.CorrelationPropertyRetrievalExpressionImpl" Collapsed="true">
+    <Position X="224" Y="3.25" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAIAAAAAAAAAAAAAEAAAAAAAAAAAIAAEAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\CorrelationPropertyRetrievalExpressionImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.CorrelationSubscriptionImpl" Collapsed="true">
+    <Position X="230.75" Y="3.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAgACYAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\CorrelationSubscriptionImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.DataAssociationImpl" Collapsed="true">
+    <Position X="236.5" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>QAIAAgAAgAAAAAQAAAAABCAACAAQAAAAAAAgAAAEAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\DataAssociationImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.DataInputAssociationImpl" Collapsed="true">
+    <Position X="235.25" Y="4.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\DataInputAssociationImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.DataInputImpl" Collapsed="true">
+    <Position X="120.5" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAgACAQAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\DataInputImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.DataInputRefs" Collapsed="true">
+    <Position X="374.75" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\DataInputRefs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.DataObjectImpl" Collapsed="true">
+    <Position X="111.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEIAQgAAAQAAAAAAAAAAAAACAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\DataObjectImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.DataObjectReferenceImpl" Collapsed="true">
+    <Position X="113.75" Y="4.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>ACAAAIAQgBAAAAAAAAAAAAAAAACAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\DataObjectReferenceImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.DataOutputAssociationImpl" Collapsed="true">
+    <Position X="237.5" Y="4.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\DataOutputAssociationImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.DataOutputImpl" Collapsed="true">
+    <Position X="125" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAgACAQAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\DataOutputImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.DataOutputRefs" Collapsed="true">
+    <Position X="17" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\DataOutputRefs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.DataPath" Collapsed="true">
+    <Position X="253.25" Y="6.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\DataPath.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.DataStateImpl" Collapsed="true">
+    <Position X="134" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgACAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\DataStateImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.DataStoreImpl" Collapsed="true">
+    <Position X="149.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAQgACAAAAAAAAAAAQCAACAAAEAIAAAEAACAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\DataStoreImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.DefinitionsImpl" Collapsed="true">
+    <Position X="50.75" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>IBACAACAgASAEICEAAAGAAQAAAQADAgCAAjAAAIQCAA=</HashCode>
+      <FileName>Bpmn\impl\instance\DefinitionsImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.DocumentationImpl" Collapsed="true">
+    <Position X="57.5" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAACBAAAgAAAAACAAAAAAAAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\DocumentationImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.EndEventImpl" Collapsed="true">
+    <Position X="98" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\EndEventImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.EndPointImpl" Collapsed="true">
+    <Position X="152" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\EndPointImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.EndPointRef" Collapsed="true">
+    <Position X="307.25" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\EndPointRef.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.ErrorEventDefinitionImpl" Collapsed="true">
+    <Position X="172.25" Y="6.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAIQAACAAAQAAAAAAAAAAABAAAAIAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\ErrorEventDefinitionImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.ErrorImpl" Collapsed="true">
+    <Position X="158.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgACAAAAAAEAAQAQEAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\ErrorImpl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.ErrorRef" Collapsed="true">
+    <Position X="334.25" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\ErrorRef.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.EscalationEventDefinitionImpl" Collapsed="true">
+    <Position X="179" Y="6.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAACAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\EscalationEventDefinitionImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.EscalationImpl" Collapsed="true">
+    <Position X="161" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgACAAAAAAAAAQAQEAAAAAAAAABAAAAABAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\EscalationImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.EventBasedGatewayImpl" Collapsed="true">
+    <Position X="93.5" Y="7.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AQAAACAAgABAAAAAAAQAEAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\EventBasedGatewayImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.EventDefinitionImpl" Collapsed="true">
+    <Position X="173.5" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\EventDefinitionImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.EventDefinitionRef" Collapsed="true">
+    <Position X="368" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\EventDefinitionRef.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.EventImpl" Collapsed="true">
+    <Position X="102.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAGAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\EventImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.ExclusiveGatewayImpl" Collapsed="true">
+    <Position X="95.75" Y="7.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAgAAAAAAAAAAAIAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\ExclusiveGatewayImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.ExpressionImpl" Collapsed="true">
+    <Position X="262.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\ExpressionImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.ExtensionElementsImpl" Collapsed="true">
+    <Position X="392.75" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAABAAAAQAAQAAAAAAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\ExtensionElementsImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.ExtensionImpl" Collapsed="true">
+    <Position X="404" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAgAAEAAgAAACAAAAAAAAAAAAAAAAAAAACAAACAIAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\ExtensionImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.FlowElementImpl" Collapsed="true">
+    <Position X="90.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgACAAAAGAAgAAAQAAIAAAAAAAEAAAQAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\FlowElementImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.FlowNodeImpl" Collapsed="true">
+    <Position X="86.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAEAgAgAAAACEAAIEAAAAAAgQIAAgQAAAgABAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\FlowNodeImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.FlowNodeRef" Collapsed="true">
+    <Position X="30.5" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\FlowNodeRef.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.FormalExpressionImpl" Collapsed="true">
+    <Position X="256.75" Y="4.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAigAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\FormalExpressionImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.From" Collapsed="true">
+    <Position X="262.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\From.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.GatewayImpl" Collapsed="true">
+    <Position X="91.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAIAAAAAAAAAAAAAAAAIAEAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\GatewayImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.GlobalConversationImpl" Collapsed="true">
+    <Position X="190.25" Y="6.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\GlobalConversationImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.HumanPerformerImpl" Collapsed="true">
+    <Position X="140.75" Y="6.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\HumanPerformerImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.ImportImpl" Collapsed="true">
+    <Position X="309.5" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAgAAAAAAgQAIAAAAAAAAAIAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\ImportImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.InclusiveGatewayImpl" Collapsed="true">
+    <Position X="91.25" Y="7.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAgAAAAAAAAAAAIAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\InclusiveGatewayImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.Incoming" Collapsed="true">
+    <Position X="327.5" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\Incoming.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.InMessageRef" Collapsed="true">
+    <Position X="336.5" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\InMessageRef.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.InnerParticipantRef" Collapsed="true">
+    <Position X="343.25" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\InnerParticipantRef.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.InputDataItemImpl" Collapsed="true">
+    <Position X="120.5" Y="6.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\InputDataItemImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.InputSetImpl" Collapsed="true">
+    <Position X="239.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAgACAAAgAAAAAgAQAAAgAAAgAQAAAAAEgAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\InputSetImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.InputSetRefs" Collapsed="true">
+    <Position X="361.25" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\InputSetRefs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.InteractionNodeImpl" Collapsed="true">
+    <Position X="370.25" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAgAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\InteractionNodeImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.InterfaceImpl" Collapsed="true">
+    <Position X="188" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAACgBCIAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\InterfaceImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.InterfaceRef" Collapsed="true">
+    <Position X="381.5" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\InterfaceRef.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.IntermediateCatchEventImpl" Collapsed="true">
+    <Position X="107" Y="9" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\IntermediateCatchEventImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.IntermediateThrowEventImpl" Collapsed="true">
+    <Position X="100.25" Y="9" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\IntermediateThrowEventImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.IoBindingImpl" Collapsed="true">
+    <Position X="287" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAiAAAAAAAAAAAAAAAAAAAgAABQAEAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\IoBindingImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.IoSpecificationImpl" Collapsed="true">
+    <Position X="116" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAkAAAAAAAAABAAAAAAAgAAAAEQAAAAAAAIAE=</HashCode>
+      <FileName>Bpmn\impl\instance\IoSpecificationImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.ItemAwareElementImpl" Collapsed="true">
+    <Position X="122.75" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAQgAAAAAAAAAAAAAAAAACAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\ItemAwareElementImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.ItemDefinitionImpl" Collapsed="true">
+    <Position X="147.5" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAgAAAQAAIAAAAQIAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Bpmn\impl\instance\ItemDefinitionImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.LaneImpl" Collapsed="true">
+    <Position X="138.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIACAAAAoACABABAAAAAAAQCAAAAAAAAGAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\LaneImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.LaneSetImpl" Collapsed="true">
+    <Position X="145.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgICAAAAAAAAAAAQAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\LaneSetImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.LinkEventDefinitionImpl" Collapsed="true">
+    <Position X="167.75" Y="6.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAgACAAAAAAAAAACQAAAQQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\LinkEventDefinitionImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.LoopCardinalityImpl" Collapsed="true">
+    <Position X="269" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\LoopCardinalityImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.LoopCharacteristicsImpl" Collapsed="true">
+    <Position X="208.25" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\LoopCharacteristicsImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.LoopDataInputRef" Collapsed="true">
+    <Position X="311.75" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\LoopDataInputRef.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.LoopDataOutputRef" Collapsed="true">
+    <Position X="316.25" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\LoopDataOutputRef.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.ManualTaskImpl" Collapsed="true">
+    <Position X="80" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\ManualTaskImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.MessageEventDefinitionImpl" Collapsed="true">
+    <Position X="176.75" Y="6.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>ACAAAIIAgABAAEBAAABgAAAAEABAEAAIAAEgIAAEgAA=</HashCode>
+      <FileName>Bpmn\impl\instance\MessageEventDefinitionImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.MessageFlowAssociationImpl" Collapsed="true">
+    <Position X="226.25" Y="3.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAEAAAAAACAAAAAAAAAABIAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\MessageFlowAssociationImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.MessageFlowImpl" Collapsed="true">
+    <Position X="233" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgiCAAAAAAAAAACQAEAAAAIAAAAAAIAAEAAI=</HashCode>
+      <FileName>Bpmn\impl\instance\MessageFlowImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.MessageFlowRef" Collapsed="true">
+    <Position X="356.75" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\MessageFlowRef.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.MessageImpl" Collapsed="true">
+    <Position X="185.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgACAAAAAAAAAAAQEAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\MessageImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.MessagePath" Collapsed="true">
+    <Position X="260" Y="6.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\MessagePath.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.MonitoringImpl" Collapsed="true">
+    <Position X="244.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\MonitoringImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.MultiInstanceLoopCharacteristicsImpl" Collapsed="true">
+    <Position X="208.25" Y="4.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>iAEAJAEAoAAAIIAAGAAAEBIgCAkMAoAAkQAEIkAAoAQ=</HashCode>
+      <FileName>Bpmn\impl\instance\MultiInstanceLoopCharacteristicsImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.OperationImpl" Collapsed="true">
+    <Position X="278" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAgACIAQAAAAAAAAQAAAAACAAAAAAAIAAIACE=</HashCode>
+      <FileName>Bpmn\impl\instance\OperationImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.OperationRef" Collapsed="true">
+    <Position X="395" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\OperationRef.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.OptionalInputRefs" Collapsed="true">
+    <Position X="406.25" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\OptionalInputRefs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.OptionalOutputRefs" Collapsed="true">
+    <Position X="19.25" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\OptionalOutputRefs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.OuterParticipantRef" Collapsed="true">
+    <Position X="26" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\OuterParticipantRef.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.Outgoing" Collapsed="true">
+    <Position X="32.75" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\Outgoing.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.OutMessageRef" Collapsed="true">
+    <Position X="44" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\OutMessageRef.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.OutputDataItemImpl" Collapsed="true">
+    <Position X="125" Y="6.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\OutputDataItemImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.OutputSetImpl" Collapsed="true">
+    <Position X="197" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgACAAAAAAAEAAAQAAAQAAgIAgBABABAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\OutputSetImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.OutputSetRefs" Collapsed="true">
+    <Position X="289.25" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\OutputSetRefs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.ParallelGatewayImpl" Collapsed="true">
+    <Position X="89" Y="7.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACgAAAAAAAAAAAAAAAAAAIAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\ParallelGatewayImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.ParticipantAssociationImpl" Collapsed="true">
+    <Position X="212.75" Y="3.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAEAAAAAABAAAAgAAAAAAAAgAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\ParticipantAssociationImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.ParticipantImpl" Collapsed="true">
+    <Position X="217.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgACgQAAAQgAAAAwAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\ParticipantImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.ParticipantMultiplicityImpl" Collapsed="true">
+    <Position X="219.5" Y="3.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>gAAAAACAgAAAAABAAAAAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\ParticipantMultiplicityImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.ParticipantRef" Collapsed="true">
+    <Position X="338.75" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\ParticipantRef.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.PartitionElement" Collapsed="true">
+    <Position X="228.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\PartitionElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.PerformerImpl" Collapsed="true">
+    <Position X="140.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\PerformerImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.PotentialOwnerImpl" Collapsed="true">
+    <Position X="140.75" Y="7.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\PotentialOwnerImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.ProcessImpl" Collapsed="true">
+    <Position X="154.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQIABJAgACEAhACAAgQAgAAAoANAGAEIEAAACTHFAA=</HashCode>
+      <FileName>Bpmn\impl\instance\ProcessImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.PropertyImpl" Collapsed="true">
+    <Position X="122.75" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgACAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\PropertyImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.ReceiveTaskImpl" Collapsed="true">
+    <Position X="84.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgABABAAAAAQAAQAAEAAIAAABAAEAIAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\ReceiveTaskImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.RelationshipImpl" Collapsed="true">
+    <Position X="246.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAgAAAAAAAACAIAAAAAAAQAEAAAQCAAAAAAAE=</HashCode>
+      <FileName>Bpmn\impl\instance\RelationshipImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.RenderingImpl" Collapsed="true">
+    <Position X="280.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\RenderingImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.ResourceAssignmentExpressionImpl" Collapsed="true">
+    <Position X="282.5" Y="3.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\ResourceAssignmentExpressionImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.ResourceImpl" Collapsed="true">
+    <Position X="192.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAgACAAAAEAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\ResourceImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.ResourceParameterBindingImpl" Collapsed="true">
+    <Position X="118.25" Y="3.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAgAAAAAAAAAAAEAAAAAAQAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\ResourceParameterBindingImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.ResourceParameterImpl" Collapsed="true">
+    <Position X="127.25" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAGABAAAAAAAAAQAAAAAAAAAAQCAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\ResourceParameterImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.ResourceRef" Collapsed="true">
+    <Position X="35" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\ResourceRef.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.ResourceRoleImpl" Collapsed="true">
+    <Position X="140.75" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAoACAIAAAAAAAAAQgAAACAAAAIAAAAAAIAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\ResourceRoleImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.RootElementImpl" Collapsed="true">
+    <Position X="170" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\RootElementImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.ScriptImpl" Collapsed="true">
+    <Position X="59.75" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\ScriptImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.ScriptTaskImpl" Collapsed="true">
+    <Position X="71" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAEAAgACAAAAAABBAAAAAgAAIAAAIAAAAAAAgAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\ScriptTaskImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.SendTaskImpl" Collapsed="true">
+    <Position X="73.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAIIAgABAAEBAAABgAQAAEAAIEAAJAAEgIAAEgAA=</HashCode>
+      <FileName>Bpmn\impl\instance\SendTaskImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.SequenceFlowImpl" Collapsed="true">
+    <Position X="109.25" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>BQAAAAAQgiAAAAACAAAAACAAAAAIAIAACAAIAAAEAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\SequenceFlowImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.ServiceTaskImpl" Collapsed="true">
+    <Position X="77.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAIIAgABAAEBAAABgAQAAEAAIEAAJAAEgAAAEgAA=</HashCode>
+      <FileName>Bpmn\impl\instance\ServiceTaskImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.SignalEventDefinitionImpl" Collapsed="true">
+    <Position X="174.5" Y="6.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACgAAAAAAAAAACAAAAAAIAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\SignalEventDefinitionImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.SignalImpl" Collapsed="true">
+    <Position X="221.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgACAAAAAAAAAQAQEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\SignalImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.Source" Collapsed="true">
+    <Position X="345.5" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\Source.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.SourceRef" Collapsed="true">
+    <Position X="350" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\SourceRef.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.StartEventImpl" Collapsed="true">
+    <Position X="104.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACgAAAAYAAQAAAAAhAEAAIAAAQAAAAAAAAACA=</HashCode>
+      <FileName>Bpmn\impl\instance\StartEventImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.SubConversationImpl" Collapsed="true">
+    <Position X="206" Y="4.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAEAAABAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\SubConversationImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.SubProcessImpl" Collapsed="true">
+    <Position X="68.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACgACEABAAAIAAAAAAAAAIAAAUIAAAAAQBAgA=</HashCode>
+      <FileName>Bpmn\impl\instance\SubProcessImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.SupportedInterfaceRef" Collapsed="true">
+    <Position X="377" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\SupportedInterfaceRef.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.Supports" Collapsed="true">
+    <Position X="383.75" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\Supports.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.Target" Collapsed="true">
+    <Position X="388.25" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\Target.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.TargetRef" Collapsed="true">
+    <Position X="397.25" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\TargetRef.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.TaskImpl" Collapsed="true">
+    <Position X="77.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACgAAAAAAAAAAQAAAAAAAAAAAQAAAAAAAEAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\TaskImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.TerminateEventDefinitionImpl" Collapsed="true">
+    <Position X="163.25" Y="6.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\TerminateEventDefinitionImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.TextAnnotationImpl" Collapsed="true">
+    <Position X="129.5" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAgAAAAAAAAAAAAAAAAAAAAIAAAIAACAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\TextAnnotationImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.TextImpl" Collapsed="true">
+    <Position X="37.25" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\TextImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.ThrowEventImpl" Collapsed="true">
+    <Position X="99.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAgkEBAAAAAAAAAAAAgQAgAAAEAAAAAAAAAgAA=</HashCode>
+      <FileName>Bpmn\impl\instance\ThrowEventImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.TimeCycleImpl" Collapsed="true">
+    <Position X="264.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\TimeCycleImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.TimeDateImpl" Collapsed="true">
+    <Position X="266.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\TimeDateImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.TimeDurationImpl" Collapsed="true">
+    <Position X="271.25" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\TimeDurationImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.TimerEventDefinitionImpl" Collapsed="true">
+    <Position X="170" Y="6.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAIAABAgABAAAAAAAAAAAIAACAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\TimerEventDefinitionImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.To" Collapsed="true">
+    <Position X="273.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\To.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.TransactionImpl" Collapsed="true">
+    <Position X="68.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Bpmn\impl\instance\TransactionImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.Transformation" Collapsed="true">
+    <Position X="257.75" Y="6.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\Transformation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.UserTaskImpl" Collapsed="true">
+    <Position X="82.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AMQBAACAgAABEAAAQACAAQhEEBAICoAAAABAAAABACA=</HashCode>
+      <FileName>Bpmn\impl\instance\UserTaskImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.WhileExecutingInputRefs" Collapsed="true">
+    <Position X="347.75" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\WhileExecutingInputRefs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.WhileExecutingOutputRefs" Collapsed="true">
+    <Position X="352.25" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\WhileExecutingOutputRefs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.bpmndi.BpmnDiagramImpl" Collapsed="true">
+    <Position X="305" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAEAgAAAgAAAAAAAAAAgAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\bpmndi\BpmnDiagramImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.bpmndi.BpmnEdgeImpl" Collapsed="true">
+    <Position X="293.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAkAAAAAAAgAAACAAAQwAAAAACBAABAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\bpmndi\BpmnEdgeImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.bpmndi.BpmnLabelImpl" Collapsed="true">
+    <Position X="296" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAgAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAIA=</HashCode>
+      <FileName>Bpmn\impl\instance\bpmndi\BpmnLabelImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.bpmndi.BpmnLabelStyleImpl" Collapsed="true">
+    <Position X="372.5" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAIAAAAAAAAAAAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\bpmndi\BpmnLabelStyleImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.bpmndi.BpmnPlaneImpl" Collapsed="true">
+    <Position X="298.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAgAAAAAAAAAAACAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\bpmndi\BpmnPlaneImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.bpmndi.BpmnShapeImpl" Collapsed="true">
+    <Position X="300.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgQAAAAgARAkACABAEAAABACAAAAwAACACICAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\bpmndi\BpmnShapeImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.camunda.CamundaConnectorIdImpl" Collapsed="true">
+    <Position X="399.5" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\camunda\CamundaConnectorIdImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.camunda.CamundaConnectorImpl" Collapsed="true">
+    <Position X="408.5" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAgQAAAAAAAAAAAAAAIAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\camunda\CamundaConnectorImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.camunda.CamundaConstraintImpl" Collapsed="true">
+    <Position X="21.5" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAABABAAgAAAAAAAAAAgAAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\camunda\CamundaConstraintImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.camunda.CamundaEntryImpl" Collapsed="true">
+    <Position X="318.5" Y="3.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Bpmn\impl\instance\camunda\CamundaEntryImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.camunda.CamundaExecutionListenerImpl" Collapsed="true">
+    <Position X="39.5" Y="2" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAoAAgBAAAEBAAAAAABAAEBAAEAAAAIAgAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\camunda\CamundaExecutionListenerImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.camunda.CamundaExpressionImpl" Collapsed="true">
+    <Position X="46.25" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\camunda\CamundaExpressionImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.camunda.CamundaFailedJobRetryTimeCycleImpl" Collapsed="true">
+    <Position X="53" Y="2" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\camunda\CamundaFailedJobRetryTimeCycleImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.camunda.CamundaFieldImpl" Collapsed="true">
+    <Position X="62" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAABABAAgIAAAEDAAACAAAAAAAAAgAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\camunda\CamundaFieldImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.camunda.CamundaFormDataImpl" Collapsed="true">
+    <Position X="291.5" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAABAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\camunda\CamundaFormDataImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.camunda.CamundaFormFieldImpl" Collapsed="true">
+    <Position X="302.75" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>ECAAIAIBgAAACAAAQgAAAAAAAAUAAAAAAAAAAEgAggg=</HashCode>
+      <FileName>Bpmn\impl\instance\camunda\CamundaFormFieldImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.camunda.CamundaFormPropertyImpl" Collapsed="true">
+    <Position X="314" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>ACABIJIAgAAAIEDAAAAAAAAAQAUQEACAABAAAkgAgAA=</HashCode>
+      <FileName>Bpmn\impl\instance\camunda\CamundaFormPropertyImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.camunda.CamundaGenericValueElementImpl" Collapsed="true">
+    <Position X="320.75" Y="2" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAIAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\camunda\CamundaGenericValueElementImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.camunda.CamundaInImpl" Collapsed="true">
+    <Position X="329.75" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAkAAAAABAACAEAAAAAMIIAACAAAAAAAhAAgA=</HashCode>
+      <FileName>Bpmn\impl\instance\camunda\CamundaInImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.camunda.CamundaInputOutputImpl" Collapsed="true">
+    <Position X="341" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgABAAAEAAIAAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\camunda\CamundaInputOutputImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.camunda.CamundaInputParameterImpl" Collapsed="true">
+    <Position X="320.75" Y="3.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAABABAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\camunda\CamundaInputParameterImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.camunda.CamundaListImpl" Collapsed="true">
+    <Position X="354.5" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\camunda\CamundaListImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.camunda.CamundaMapImpl" Collapsed="true">
+    <Position X="359" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACgAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\camunda\CamundaMapImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.camunda.CamundaOutImpl" Collapsed="true">
+    <Position X="363.5" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAkAAAAABAACAEAAAAAIIIAAAAAAAAAAhAAgA=</HashCode>
+      <FileName>Bpmn\impl\instance\camunda\CamundaOutImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.camunda.CamundaOutputParameterImpl" Collapsed="true">
+    <Position X="323" Y="3.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAABABAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\camunda\CamundaOutputParameterImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.camunda.CamundaPotentialStarterImpl" Collapsed="true">
+    <Position X="379.25" Y="2" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAIAAAAAAAAAAAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\camunda\CamundaPotentialStarterImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.camunda.CamundaPropertiesImpl" Collapsed="true">
+    <Position X="386" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAACAAAAAAAAAAAIAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\camunda\CamundaPropertiesImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.camunda.CamundaPropertyImpl" Collapsed="true">
+    <Position X="390.5" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAEBABIAgAAACAAAAAAAAAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\camunda\CamundaPropertyImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.camunda.CamundaScriptImpl" Collapsed="true">
+    <Position X="401.75" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAgAIAAAQAAAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\camunda\CamundaScriptImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.camunda.CamundaStringImpl" Collapsed="true">
+    <Position X="410.75" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\camunda\CamundaStringImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.camunda.CamundaTaskListenerImpl" Collapsed="true">
+    <Position X="23.75" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAEAAoAAgBAAAEBAAAAAABAAEBAAEAAAAIAgAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\camunda\CamundaTaskListenerImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.camunda.CamundaValidationImpl" Collapsed="true">
+    <Position X="28.25" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAABIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\camunda\CamundaValidationImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.camunda.CamundaValueImpl" Collapsed="true">
+    <Position X="41.75" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAABABIAgAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\camunda\CamundaValueImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.dc.BoundsImpl" Collapsed="true">
+    <Position X="48.5" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>QAAAJAAAgEAAAAAAAAAGAAAAAAAAQAAEBAACAGAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\dc\BoundsImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.dc.FontImpl" Collapsed="true">
+    <Position X="55.25" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>IIKAAAAAgAiAgAAAAIAAABQAAAAACACAIAAAEQBAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\dc\FontImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.dc.PointImpl" Collapsed="true">
+    <Position X="64.25" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAgEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAA=</HashCode>
+      <FileName>Bpmn\impl\instance\dc\PointImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.di.DiagramElementImpl" Collapsed="true">
+    <Position X="297.25" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAgAAAAACAAAAAAAAAAAAAAQAAAAAAAAAACAA=</HashCode>
+      <FileName>Bpmn\impl\instance\di\DiagramElementImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.di.DiagramImpl" Collapsed="true">
+    <Position X="305" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAgACAAACAAAAAgAQAAAAkAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\di\DiagramImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.di.EdgeImpl" Collapsed="true">
+    <Position X="293.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAgAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\di\EdgeImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.di.ExtensionImpl" Collapsed="true">
+    <Position X="325.25" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\di\ExtensionImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.di.LabeledEdgeImpl" Collapsed="true">
+    <Position X="293.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\di\LabeledEdgeImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.di.LabeledShapeImpl" Collapsed="true">
+    <Position X="300.5" Y="6.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\di\LabeledShapeImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.di.LabelImpl" Collapsed="true">
+    <Position X="296" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAQAAAAABAAAAAgA=</HashCode>
+      <FileName>Bpmn\impl\instance\di\LabelImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.di.NodeImpl" Collapsed="true">
+    <Position X="298.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\di\NodeImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.di.PlaneImpl" Collapsed="true">
+    <Position X="298.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\di\PlaneImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.di.ShapeImpl" Collapsed="true">
+    <Position X="300.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAQAAAAABAAAAAgA=</HashCode>
+      <FileName>Bpmn\impl\instance\di\ShapeImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.di.StyleImpl" Collapsed="true">
+    <Position X="372.5" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAgAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\impl\instance\di\StyleImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.bpmn.impl.instance.di.WaypointImpl" Collapsed="true">
+    <Position X="64.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAA=</HashCode>
+      <FileName>Bpmn\impl\instance\di\WaypointImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="org.camunda.bpm.model.bpmn.IBpmnModelInstance" Collapsed="true">
+    <Position X="415" Y="3.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Bpmn\BpmnModelInstance.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.BpmnModelType" Collapsed="true">
+    <Position X="413.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\BpmnModelType.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.Query&lt;T&gt;" Collapsed="true">
+    <Position X="416.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIgAAAAAAABAABAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\Query.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.IActivationCondition" Collapsed="true">
+    <Position X="95.75" Y="14.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\ActivationCondition.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.IActivity" Collapsed="true">
+    <Position X="118.25" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CCAAAAAAAAAAAAABgAAAIAAAQACAAAAAAAABAAQCAAA=</HashCode>
+      <FileName>Bpmn\instance\Activity.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.IArtifact" Collapsed="true">
+    <Position X="211.75" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\Artifact.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.IAssignment" Collapsed="true">
+    <Position X="215" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\Assignment.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.Association" Collapsed="true">
+    <Position X="210.5" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAACAAAAAAAAAAAAAAIAAEAAA=</HashCode>
+      <FileName>Bpmn\instance\Association.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.IAuditing" Collapsed="true">
+    <Position X="53" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\Auditing.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.IBaseElement" Collapsed="true">
+    <Position X="128.5" Y="12" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAABAAAAAAAAAAAAAAAAAAAAAAAACAAAAAEAAA=</HashCode>
+      <FileName>Bpmn\instance\BaseElement.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.IBoundaryEvent" Collapsed="true">
+    <Position X="125" Y="19.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAAAIAAAAAQIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\BoundaryEvent.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.IBpmnModelElementInstance" Collapsed="true">
+    <Position X="164.5" Y="10.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\BpmnModelElementInstance.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.BusinessRuleTask" Collapsed="true">
+    <Position X="113.75" Y="21.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEIAAAAAACBAAAAgAQAAEAAIABAIAAAgAAEAgAA=</HashCode>
+      <FileName>Bpmn\instance\BusinessRuleTask.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.ICallableElement" Collapsed="true">
+    <Position X="189.25" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAACQAAAAAAAIAAAAAAAQAAAA=</HashCode>
+      <FileName>Bpmn\instance\CallableElement.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.CallActivity" Collapsed="true">
+    <Position X="111.5" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BABAAACAAAAAIAAACIAAAAAAAAAMAAAQFEAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\CallActivity.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.CallConversation" Collapsed="true">
+    <Position X="136.5" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Bpmn\instance\CallConversation.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.CancelEventDefinition" Collapsed="true">
+    <Position X="171.25" Y="16.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\CancelEventDefinition.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.CatchEvent" Collapsed="true">
+    <Position X="125" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAIAAAAAAACBAAAAAAAAAAAAgAE=</HashCode>
+      <FileName>Bpmn\instance\CatchEvent.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.CategoryValue" Collapsed="true">
+    <Position X="136.25" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\CategoryValue.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.Collaboration" Collapsed="true">
+    <Position X="196" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAICAAAAAAAgAgAQAEAAAAAAIACAEAACAAAA=</HashCode>
+      <FileName>Bpmn\instance\Collaboration.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.CompensateEventDefinition" Collapsed="true">
+    <Position X="178" Y="16.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAEAAAAA=</HashCode>
+      <FileName>Bpmn\instance\CompensateEventDefinition.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.CompletionCondition" Collapsed="true">
+    <Position X="91.25" Y="14.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\CompletionCondition.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.ComplexBehaviorDefinition" Collapsed="true">
+    <Position X="199.25" Y="13.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\ComplexBehaviorDefinition.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.IComplexGateway" Collapsed="true">
+    <Position X="149.75" Y="17.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAEAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\ComplexGateway.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.Condition" Collapsed="true">
+    <Position X="93.5" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\Condition.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.ConditionalEventDefinition" Collapsed="true">
+    <Position X="180.25" Y="16.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACACAAAAAAAAAAAAAAAAAAAAAAAgAAAAQA=</HashCode>
+      <FileName>Bpmn\instance\ConditionalEventDefinition.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.ConditionExpression" Collapsed="true">
+    <Position X="89" Y="16.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\ConditionExpression.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.Conversation" Collapsed="true">
+    <Position X="138.75" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\Conversation.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.ConversationAssociation" Collapsed="true">
+    <Position X="217.25" Y="13.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\ConversationAssociation.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.ConversationLink" Collapsed="true">
+    <Position X="48.5" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAACQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\ConversationLink.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.ConversationNode" Collapsed="true">
+    <Position X="128.5" Y="13.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAQAAAAAAAAIACAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\ConversationNode.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.CorrelationKey" Collapsed="true">
+    <Position X="59.75" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\CorrelationKey.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.CorrelationProperty" Collapsed="true">
+    <Position X="162.25" Y="14.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAQIAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\CorrelationProperty.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.CorrelationPropertyBinding" Collapsed="true">
+    <Position X="71" Y="13.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\CorrelationPropertyBinding.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.CorrelationPropertyRetrievalExpression" Collapsed="true">
+    <Position X="73.25" Y="13.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\CorrelationPropertyRetrievalExpression.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.CorrelationSubscription" Collapsed="true">
+    <Position X="77.75" Y="13.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAACIAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\CorrelationSubscription.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.DataAssociation" Collapsed="true">
+    <Position X="101.5" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAIAAAAAAAAAAAAAAAAABCAAAAAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\DataAssociation.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.IDataInput" Collapsed="true">
+    <Position X="66.5" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\DataInput.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.DataInputAssociation" Collapsed="true">
+    <Position X="100.25" Y="14.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\DataInputAssociation.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.IDataObject" Collapsed="true">
+    <Position X="88.75" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\DataObject.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.IDataObjectReference" Collapsed="true">
+    <Position X="91.75" Y="16.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\DataObjectReference.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.DataOutput" Collapsed="true">
+    <Position X="68.75" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\DataOutput.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.DataOutputAssociation" Collapsed="true">
+    <Position X="102.5" Y="14.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\DataOutputAssociation.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.DataState" Collapsed="true">
+    <Position X="147.5" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\DataState.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.DataStore" Collapsed="true">
+    <Position X="122.5" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQCAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\DataStore.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.IDefinitions" Collapsed="true">
+    <Position X="280.25" Y="12" Width="2" />
+    <TypeIdentifier>
+      <HashCode>IAACAAAAAAAAAAAEAAAGAAQAAAQADAAAAAgAAAIQAAA=</HashCode>
+      <FileName>Bpmn\instance\Definitions.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.Documentation" Collapsed="true">
+    <Position X="284.75" Y="12" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAACBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\Documentation.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.EndEvent" Collapsed="true">
+    <Position X="131.75" Y="19.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\EndEvent.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.EndPoint" Collapsed="true">
+    <Position X="198.25" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\EndPoint.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.Error" Collapsed="true">
+    <Position X="200.5" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQEAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\Error.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.ErrorEventDefinition" Collapsed="true">
+    <Position X="182.5" Y="16.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAQAAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\ErrorEventDefinition.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.Escalation" Collapsed="true">
+    <Position X="160" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQEAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Bpmn\instance\Escalation.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.EscalationEventDefinition" Collapsed="true">
+    <Position X="164.5" Y="16.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\EscalationEventDefinition.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.IEvent" Collapsed="true">
+    <Position X="118.25" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Bpmn\instance\Event.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.EventBasedGateway" Collapsed="true">
+    <Position X="145.25" Y="17.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAQAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\EventBasedGateway.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.EventDefinition" Collapsed="true">
+    <Position X="174.75" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\EventDefinition.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.ExclusiveGateway" Collapsed="true">
+    <Position X="147.5" Y="17.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\ExclusiveGateway.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.Expression" Collapsed="true">
+    <Position X="88" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\Expression.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.Extension" Collapsed="true">
+    <Position X="239.75" Y="12" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAACAAAAAAAAAAAAAAAAAAAACAAAAAIAAA=</HashCode>
+      <FileName>Bpmn\instance\Extension.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.IExtensionElements" Collapsed="true">
+    <Position X="246.5" Y="12" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAQAAAAAAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\ExtensionElements.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.IFlowElement" Collapsed="true">
+    <Position X="115" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAGAAAAAAQAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\FlowElement.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.IFlowNode" Collapsed="true">
+    <Position X="118.25" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAgAAAACAAAAEAAAAAAgQIAAAAAAAgAAAAA=</HashCode>
+      <FileName>Bpmn\instance\FlowNode.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.FormalExpression" Collapsed="true">
+    <Position X="89" Y="14.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\FormalExpression.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.IGateway" Collapsed="true">
+    <Position X="149.75" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Bpmn\instance\Gateway.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.GlobalConversation" Collapsed="true">
+    <Position X="196" Y="16.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\GlobalConversation.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.HumanPerformer" Collapsed="true">
+    <Position X="157.25" Y="16.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\HumanPerformer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.Import" Collapsed="true">
+    <Position X="273.5" Y="12" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAIAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\Import.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.InclusiveGateway" Collapsed="true">
+    <Position X="152" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\InclusiveGateway.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.InputDataItem" Collapsed="true">
+    <Position X="66.5" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\InputDataItem.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.InputSet" Collapsed="true">
+    <Position X="206" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAQAAAgAAAgAQAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\InputSet.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.InteractionNode" Collapsed="true">
+    <Position X="121.25" Y="16.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\InteractionNode.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.Interface" Collapsed="true">
+    <Position X="202.75" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAACAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\Interface.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.IntermediateCatchEvent" Collapsed="true">
+    <Position X="127.25" Y="19.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\IntermediateCatchEvent.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.IntermediateThrowEvent" Collapsed="true">
+    <Position X="129.5" Y="19.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\IntermediateThrowEvent.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.IoBinding" Collapsed="true">
+    <Position X="55.25" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAACAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\IoBinding.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.IoSpecification" Collapsed="true">
+    <Position X="62" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAQAAAAAAAAAE=</HashCode>
+      <FileName>Bpmn\instance\IoSpecification.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.IItemAwareElement" Collapsed="true">
+    <Position X="66.5" Y="13.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\ItemAwareElement.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.IItemDefinition" Collapsed="true">
+    <Position X="187" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAIAAAAAAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Bpmn\instance\ItemDefinition.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.Lane" Collapsed="true">
+    <Position X="75.5" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAIAAAAABAAAAAAAQCAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\Lane.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.LaneSet" Collapsed="true">
+    <Position X="98" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Bpmn\instance\LaneSet.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.LinkEventDefinition" Collapsed="true">
+    <Position X="169" Y="16.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAACQAAAAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\LinkEventDefinition.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.LoopCardinality" Collapsed="true">
+    <Position X="80" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\LoopCardinality.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.LoopCharacteristics" Collapsed="true">
+    <Position X="131.75" Y="13.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\LoopCharacteristics.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.ManualTask" Collapsed="true">
+    <Position X="118.25" Y="21.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\ManualTask.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.Message" Collapsed="true">
+    <Position X="193.75" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\Message.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.MessageEventDefinition" Collapsed="true">
+    <Position X="175.75" Y="16.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAABAAAAgAAAAEAAAAAAIAAEgIAAAgAA=</HashCode>
+      <FileName>Bpmn\instance\MessageEventDefinition.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.MessageFlow" Collapsed="true">
+    <Position X="143" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAACQAAAAAAAAAAAAAIAAEAAA=</HashCode>
+      <FileName>Bpmn\instance\MessageFlow.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.MessageFlowAssociation" Collapsed="true">
+    <Position X="149.75" Y="13.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEAAAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\MessageFlowAssociation.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.Monitoring" Collapsed="true">
+    <Position X="201.5" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\Monitoring.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.MultiInstanceLoopCharacteristics" Collapsed="true">
+    <Position X="131.75" Y="14.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAEAIAAAAIAACAAAEAIACAAIAIAAEAAEAkAAIAQ=</HashCode>
+      <FileName>Bpmn\instance\MultiInstanceLoopCharacteristics.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.Operation" Collapsed="true">
+    <Position X="203.75" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAQAAAAAAAAQAAAAACAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\Operation.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.OutputDataItem" Collapsed="true">
+    <Position X="68.75" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\OutputDataItem.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.OutputSet" Collapsed="true">
+    <Position X="208.25" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAQAAAQAAgAAAAABAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\OutputSet.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.ParallelGateway" Collapsed="true">
+    <Position X="154.25" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\ParallelGateway.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.Participant" Collapsed="true">
+    <Position X="128.5" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAgAAAAwAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\Participant.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.ParticipantAssociation" Collapsed="true">
+    <Position X="50.75" Y="13.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Bpmn\instance\ParticipantAssociation.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.ParticipantMultiplicity" Collapsed="true">
+    <Position X="57.5" Y="13.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>gAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\ParticipantMultiplicity.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.Performer" Collapsed="true">
+    <Position X="157.25" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\Performer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.PotentialOwner" Collapsed="true">
+    <Position X="157.25" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\PotentialOwner.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.IProcess" Collapsed="true">
+    <Position X="189.25" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQAABIAAACAABACAAAAAgAAAAAMAAAAAEAAACDDFAA=</HashCode>
+      <FileName>Bpmn\instance\Process.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.IProperty" Collapsed="true">
+    <Position X="64.25" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\Property.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.ReceiveTask" Collapsed="true">
+    <Position X="116" Y="21.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAQAAQAAAAAIAAAAAAEAIAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\ReceiveTask.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.Relationship" Collapsed="true">
+    <Position X="104.75" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAAAQAEAAAQAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\Relationship.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.Rendering" Collapsed="true">
+    <Position X="107" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\Rendering.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.Resource" Collapsed="true">
+    <Position X="191.5" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\Resource.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.ResourceAssignmentExpression" Collapsed="true">
+    <Position X="134" Y="13.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\ResourceAssignmentExpression.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.ResourceParameter" Collapsed="true">
+    <Position X="138.5" Y="13.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAAAAAAQAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\ResourceParameter.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.ResourceParameterBinding" Collapsed="true">
+    <Position X="140.75" Y="13.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\ResourceParameterBinding.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.ResourceRole" Collapsed="true">
+    <Position X="157.25" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAIAAAAAAAAAQAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\ResourceRole.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.IRootElement" Collapsed="true">
+    <Position X="182.5" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\RootElement.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.Script" Collapsed="true">
+    <Position X="275.75" Y="12" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\Script.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.ScriptTask" Collapsed="true">
+    <Position X="122.75" Y="21.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAAAgAAIAAAIAAAAAAAgAAA=</HashCode>
+      <FileName>Bpmn\instance\ScriptTask.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.SendTask" Collapsed="true">
+    <Position X="125" Y="21.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAABAAAAgAQAAEAAIAAAIAAEgIAAAgAA=</HashCode>
+      <FileName>Bpmn\instance\SendTask.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.SequenceFlow" Collapsed="true">
+    <Position X="125" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAgAAAAACAAAAACAAAAAIAAAAAAAIAAAEAAA=</HashCode>
+      <FileName>Bpmn\instance\SequenceFlow.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.ServiceTask" Collapsed="true">
+    <Position X="127.25" Y="21.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAABAAAAgAQAAEAAIAAAIAAEgAAAAgAA=</HashCode>
+      <FileName>Bpmn\instance\ServiceTask.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.ISignal" Collapsed="true">
+    <Position X="205" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\Signal.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.SignalEventDefinition" Collapsed="true">
+    <Position X="184.75" Y="16.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\SignalEventDefinition.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.StartEvent" Collapsed="true">
+    <Position X="122.75" Y="19.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAYAAQAAAAAgAAAAIAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\StartEvent.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.SubConversation" Collapsed="true">
+    <Position X="134.25" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\SubConversation.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.SubProcess" Collapsed="true">
+    <Position X="109.25" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAABAAAIAAAAAAAAAIAAAQAAAAAAABAgA=</HashCode>
+      <FileName>Bpmn\instance\SubProcess.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.Task" Collapsed="true">
+    <Position X="120.5" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAEAAA=</HashCode>
+      <FileName>Bpmn\instance\Task.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.TerminateEventDefinition" Collapsed="true">
+    <Position X="166.75" Y="16.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\TerminateEventDefinition.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.Text" Collapsed="true">
+    <Position X="228.5" Y="12" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\Text.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.TextAnnotation" Collapsed="true">
+    <Position X="212.75" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\TextAnnotation.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.ThrowEvent" Collapsed="true">
+    <Position X="130.75" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAEAAAAAAAAAAAAAAQAgAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Bpmn\instance\ThrowEvent.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.TimeCycle" Collapsed="true">
+    <Position X="82.25" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\TimeCycle.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.TimeDate" Collapsed="true">
+    <Position X="84.5" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\TimeDate.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.TimeDuration" Collapsed="true">
+    <Position X="86.75" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\TimeDuration.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.TimerEventDefinition" Collapsed="true">
+    <Position X="173.5" Y="16.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAABAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\TimerEventDefinition.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.Transaction" Collapsed="true">
+    <Position X="109.25" Y="21.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\Transaction.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.UserTask" Collapsed="true">
+    <Position X="120.5" Y="21.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEABAACAAAABEAAAQAAAAQhAAAAIAoAAAABAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\UserTask.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.bpmndi.BpmnDiagram" Collapsed="true">
+    <Position X="251" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\bpmndi\BpmnDiagram.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.bpmndi.IBpmnEdge" Collapsed="true">
+    <Position X="255.5" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAQgAAAAACAAABAAA=</HashCode>
+      <FileName>Bpmn\instance\bpmndi\BpmnEdge.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.bpmndi.IBpmnLabel" Collapsed="true">
+    <Position X="257.75" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\bpmndi\BpmnLabel.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.bpmndi.IBpmnLabelStyle" Collapsed="true">
+    <Position X="289.25" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Bpmn\instance\bpmndi\BpmnLabelStyle.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.bpmndi.IBpmnPlane" Collapsed="true">
+    <Position X="260" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\bpmndi\BpmnPlane.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.bpmndi.IBpmnShape" Collapsed="true">
+    <Position X="262.25" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAABAgAAAAAEAAABAAAAAAgAAAACIAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\bpmndi\BpmnShape.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.camunda.CamundaConnector" Collapsed="true">
+    <Position X="39.5" Y="12" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\camunda\CamundaConnector.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.camunda.ICamundaConnectorId" Collapsed="true">
+    <Position X="44" Y="12" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\camunda\CamundaConnectorId.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.camunda.CamundaConstraint" Collapsed="true">
+    <Position X="217.25" Y="12" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\camunda\CamundaConstraint.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.camunda.CamundaEntry" Collapsed="true">
+    <Position X="165.5" Y="14" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Bpmn\instance\camunda\CamundaEntry.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.camunda.CamundaExecutionListener" Collapsed="true">
+    <Position X="224" Y="12" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAABAAAAAABAAEBAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\camunda\CamundaExecutionListener.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.camunda.CamundaExpression" Collapsed="true">
+    <Position X="230.75" Y="12" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\camunda\CamundaExpression.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.camunda.CamundaFailedJobRetryTimeCycle" Collapsed="true">
+    <Position X="235.25" Y="12" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\camunda\CamundaFailedJobRetryTimeCycle.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.camunda.ICamundaField" Collapsed="true">
+    <Position X="242" Y="12" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAIAAAABAAACAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\camunda\CamundaField.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.camunda.CamundaFormData" Collapsed="true">
+    <Position X="248.75" Y="12" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\camunda\CamundaFormData.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.camunda.CamundaFormField" Collapsed="true">
+    <Position X="253.25" Y="12" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAACAAAAgAAAAAAAAAAAAAAAAAAAEgAggg=</HashCode>
+      <FileName>Bpmn\instance\camunda\CamundaFormField.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.camunda.CamundaFormProperty" Collapsed="true">
+    <Position X="264.5" Y="12" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAJIAAAAAAADAAAAAAAAAQAAAAACAAAAAAEgAgAA=</HashCode>
+      <FileName>Bpmn\instance\camunda\CamundaFormProperty.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.camunda.CamundaGenericValueElement" Collapsed="true">
+    <Position X="161.5" Y="10.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAIAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\camunda\CamundaGenericValueElement.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.camunda.CamundaIn" Collapsed="true">
+    <Position X="269" Y="12" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAACAEAAAAAEIAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Bpmn\instance\camunda\CamundaIn.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.camunda.CamundaInputOutput" Collapsed="true">
+    <Position X="271.25" Y="12" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\camunda\CamundaInputOutput.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.camunda.CamundaInputParameter" Collapsed="true">
+    <Position X="164.5" Y="12" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\camunda\CamundaInputParameter.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.camunda.CamundaList" Collapsed="true">
+    <Position X="278" Y="12" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\camunda\CamundaList.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.camunda.CamundaMap" Collapsed="true">
+    <Position X="282.5" Y="12" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\camunda\CamundaMap.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.camunda.CamundaOut" Collapsed="true">
+    <Position X="287" Y="12" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAACAEAAAAAAIAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Bpmn\instance\camunda\CamundaOut.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.camunda.CamundaOutputParameter">
+    <Position X="161.5" Y="12" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\camunda\CamundaOutputParameter.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.camunda.CamundaPotentialStarter" Collapsed="true">
+    <Position X="291.5" Y="12" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\camunda\CamundaPotentialStarter.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.camunda.CamundaProperties" Collapsed="true">
+    <Position X="293.75" Y="12" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\camunda\CamundaProperties.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.camunda.ICamundaProperty" Collapsed="true">
+    <Position X="296" Y="12" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAABIAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\camunda\CamundaProperty.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.camunda.CamundaScript" Collapsed="true">
+    <Position X="41.75" Y="12" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\camunda\CamundaScript.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.camunda.CamundaString" Collapsed="true">
+    <Position X="46.25" Y="12" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\camunda\CamundaString.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.camunda.CamundaTaskListener" Collapsed="true">
+    <Position X="219.5" Y="12" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAABAAAAAABAAEBAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\camunda\CamundaTaskListener.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.camunda.CamundaValidation" Collapsed="true">
+    <Position X="221.75" Y="12" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\camunda\CamundaValidation.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.camunda.CamundaValue" Collapsed="true">
+    <Position X="226.25" Y="12" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\camunda\CamundaValue.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.dc.IBounds" Collapsed="true">
+    <Position X="233" Y="12" Width="2" />
+    <TypeIdentifier>
+      <HashCode>QAAABAAAAAAAAAAAAAAGAAAAAAAAQAAEAAAAAGAAAAA=</HashCode>
+      <FileName>Bpmn\instance\dc\IBounds.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.dc.IFont" Collapsed="true">
+    <Position X="237.5" Y="12" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AIKAAAAAAAgAgAAAAIAAABQAAAAACAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\dc\IFont.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.dc.IPoint" Collapsed="true">
+    <Position X="244.25" Y="12" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAA=</HashCode>
+      <FileName>Bpmn\instance\dc\IPoint.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.di.IDiagram" Collapsed="true">
+    <Position X="251" Y="12" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAkAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\di\IDiagram.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.di.IDiagramElement" Collapsed="true">
+    <Position X="259" Y="12" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\di\IDiagramElement.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.di.IEdge" Collapsed="true">
+    <Position X="255.5" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\di\IEdge.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.di.IExtension" Collapsed="true">
+    <Position X="266.75" Y="12" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\di\IExtension.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.di.ILabel" Collapsed="true">
+    <Position X="257.75" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Bpmn\instance\di\ILabel.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.di.ILabeledEdge" Collapsed="true">
+    <Position X="255.5" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\di\ILabeledEdge.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.di.ILabeledShape" Collapsed="true">
+    <Position X="262.25" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\di\ILabeledShape.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.di.INode" Collapsed="true">
+    <Position X="260" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\di\INode.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.di.IPlane" Collapsed="true">
+    <Position X="260" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Bpmn\instance\di\IPlane.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.di.IShape" Collapsed="true">
+    <Position X="262.25" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Bpmn\instance\di\IShape.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.di.IStyle" Collapsed="true">
+    <Position X="289.25" Y="12" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\di\Style.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.bpmn.instance.di.IWaypoint" Collapsed="true">
+    <Position X="244.25" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\di\Waypoint.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="org.camunda.bpm.model.bpmn.AssociationDirection" Collapsed="true">
+    <Position X="413.25" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAEAAIA=</HashCode>
+      <FileName>Bpmn\AssociationDirection.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="org.camunda.bpm.model.bpmn.EventBasedGatewayType" Collapsed="true">
+    <Position X="415" Y="4.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>Bpmn\EventBasedGatewayType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="org.camunda.bpm.model.bpmn.GatewayDirection" Collapsed="true">
+    <Position X="416.75" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAACAgAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Bpmn\GatewayDirection.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="org.camunda.bpm.model.bpmn.ItemKind" Collapsed="true">
+    <Position X="413.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\ItemKind.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="org.camunda.bpm.model.bpmn.MultiInstanceFlowCondition" Collapsed="true">
+    <Position X="416.75" Y="5.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAEAAIA=</HashCode>
+      <FileName>Bpmn\MultiInstanceFlowCondition.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="org.camunda.bpm.model.bpmn.ProcessType" Collapsed="true">
+    <Position X="415" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAEAQAA=</HashCode>
+      <FileName>Bpmn\ProcessType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="org.camunda.bpm.model.bpmn.RelationshipDirection" Collapsed="true">
+    <Position X="416.75" Y="6.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAEAAAI=</HashCode>
+      <FileName>Bpmn\RelationshipDirection.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="org.camunda.bpm.model.bpmn.instance.bpmndi.MessageVisibleKind" Collapsed="true">
+    <Position X="415" Y="5.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bpmn\instance\bpmndi\MessageVisibleKind.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="org.camunda.bpm.model.bpmn.instance.bpmndi.ParticipantBandKind" Collapsed="true">
+    <Position X="413.25" Y="6.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAIAAAAAAAAAAQAAAAQAAABAAAAIA=</HashCode>
+      <FileName>Bpmn\instance\bpmndi\ParticipantBandKind.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!-- The new msbuild allows you to set properties in this file that will be inherited by all projects -->
+<!-- see: http://blog.seravy.com/directory-build-targets-solution-wide-msbuild-target-part-2/ -->
+<Project>
+  <!-- These properties will be shared for all projects -->
+  <PropertyGroup>
+  <Title>ESS</Title>
+    <Product>ESS</Product>
+    <Description>ESS Frameworks</Description>
+    <PackageTags>ESS Frameworks</PackageTags>
+    <Authors>ESS</Authors>
+    <projectUrl>https://github.com/zf321/ESS.FW.Bpm</projectUrl>
+    <RepositoryType>git</RepositoryType>
+    <Copyright>Copyright 2015-2018 </Copyright>
+  </PropertyGroup>
+</Project>

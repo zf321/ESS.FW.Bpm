@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>ESS.FW.Bpm.Engine</AssemblyName>
+    <RootNamespace>ESS.FW.Engine</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ESS.FW.Common.Autofac" Version="1.0.0" />
+    <PackageReference Include="ESS.FW.DataAccess.EF" Version="1.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.0.2" />
+    <PackageReference Include="NewId" Version="3.0.1" />
+    <PackageReference Include="Quartz" Version="3.0.4" />
+    <PackageReference Include="System.CodeDom" Version="4.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Entities.Bpm\Entities.Bpm.csproj" />
+    <ProjectReference Include="..\Model\Model.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,762 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="AbstractModelParser      定义的Xml到Model的抽象类， 提供二进制流到Model的转换， DomDocument的验证等。">
+    <Position X="18.26" Y="0.51" Height="0.792" Width="2.012" />
+  </Comment>
+  <Comment CommentText="反射工具类，提供将文件名转化为uri，文件获取二进制流，类型创建对象等">
+    <Position X="23.745" Y="3.74" Height="0.75" Width="1.7" />
+  </Comment>
+  <Comment CommentText="字符串操作工具类">
+    <Position X="27.273" Y="4.083" Height="0.448" Width="1.252" />
+  </Comment>
+  <Comment CommentText="model elements的操作类">
+    <Position X="25.482" Y="3.083" Height="0.284" Width="1.742" />
+  </Comment>
+  <Comment CommentText="Model包含定义类型及操作">
+    <Position X="25.451" Y="1.188" Height="0.302" Width="1.773" />
+  </Comment>
+  <Comment CommentText="所有简单数据类型的转换类， Enum在.net中和在java中的差异比较大。">
+    <Position X="8.737" Y="2.563" Height="0.625" Width="1.637" />
+  </Comment>
+  <Comment CommentText="简单类型数据的构建类">
+    <Position X="7.357" Y="5.703" Height="0.406" Width="1.7" />
+  </Comment>
+  <Comment CommentText="自定义model 操作，验证自定义异常类型">
+    <Position X="7.221" Y="6.859" Height="0.51" Width="1.7" />
+  </Comment>
+  <Class Name="org.camunda.bpm.model.xml.impl.instance.DomDocumentImpl" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="23.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAiAAAAAAAAgAAAAgBAAAIABIFAAAAAEAAAAAA=</HashCode>
+      <FileName>Xml\impl\instance\DomDocumentImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.xml.impl.instance.DomElementImpl" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="25.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAMAIAAAAAACAQAAoAAAAgBKBgIBBIAmQACQAgIAECI=</HashCode>
+      <FileName>Xml\impl\instance\DomElementImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.xml.impl.instance.ModelElementInstanceImpl" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="20.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oQAEFAgRgAQBEJCAoEAQAABABAAAAaAAEEAYAAIQIAA=</HashCode>
+      <FileName>Xml\impl\instance\ModelElementInstanceImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.xml.impl.instance.ModelTypeInstanceContext" Collapsed="true">
+    <Position X="23.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAEAAAAAAAQAAAAAAAAAAAAAAgQAAAIAAA=</HashCode>
+      <FileName>Xml\impl\instance\ModelTypeInstanceContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.xml.impl.ModelBuilderImpl" Collapsed="true">
+    <Position X="12.5" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAIAAAAAABAAAIAAAAAIAAE=</HashCode>
+      <FileName>Xml\impl\ModelBuilderImpl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.xml.impl.ModelImpl" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="25.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAEAAgQIAAAAogAAAAAAAAQAAAIAACAAAAAkgEAA=</HashCode>
+      <FileName>Xml\impl\ModelImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.xml.impl.ModelInstanceImpl" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="27.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAABAAAAAAAAAQBAAAIAACACAAgAEAAIAAQ=</HashCode>
+      <FileName>Xml\impl\ModelInstanceImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.xml.impl.parser.AbstractModelParser" Collapsed="true">
+    <Position X="20.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAFAAAAAAACAAAAEBAAAAAAEAEAACAAAEAAAA=</HashCode>
+      <FileName>Xml\impl\parser\AbstractModelParser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.xml.impl.type.attribute.AttributeBuilderImpl&lt;T&gt;" Collapsed="true">
+    <Position X="6.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAACBAgAAQAAAAAAAIAAAQIAAAAAAAAA=</HashCode>
+      <FileName>Xml\impl\type\attribute\AttributeBuilderImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.xml.impl.type.attribute.AttributeImpl&lt;T&gt;" Collapsed="true">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAEQAIAKGAAKAACCoAAAAEAABAIIAQQAAIEAAICBE=</HashCode>
+      <FileName>Xml\impl\type\attribute\AttributeImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.xml.impl.type.attribute.BooleanAttribute" Collapsed="true">
+    <Position X="1" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Xml\impl\type\attribute\BooleanAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.xml.impl.type.attribute.BooleanAttributeBuilder" Collapsed="true">
+    <Position X="3.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Xml\impl\type\attribute\BooleanAttributeBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.xml.impl.type.attribute.DoubleAttribute" Collapsed="true">
+    <Position X="3.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Xml\impl\type\attribute\DoubleAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.xml.impl.type.attribute.DoubleAttributeBuilder" Collapsed="true">
+    <Position X="5.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACBAAAAAAAAAAAAIAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Xml\impl\type\attribute\DoubleAttributeBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.xml.impl.type.attribute.EnumAttribute&lt;T&gt;" Collapsed="true">
+    <Position X="5.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAAAAAAAABAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Xml\impl\type\attribute\EnumAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.xml.impl.type.attribute.EnumAttributeBuilder&lt;T&gt;" Collapsed="true">
+    <Position X="7.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACBAAAAAAAAAAAAIAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Xml\impl\type\attribute\EnumAttributeBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.xml.impl.type.attribute.IntegerAttribute" Collapsed="true">
+    <Position X="7.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Xml\impl\type\attribute\IntegerAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.xml.impl.type.attribute.IntegerAttributeBuilder" Collapsed="true">
+    <Position X="10" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACBAAAAAAAAAAAAIAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Xml\impl\type\attribute\IntegerAttributeBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.xml.impl.type.attribute.NamedEnumAttribute&lt;T&gt;" Collapsed="true">
+    <Position X="10" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAAAAAAAABAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Xml\impl\type\attribute\NamedEnumAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.xml.impl.type.attribute.NamedEnumAttributeBuilder&lt;T&gt;" Collapsed="true">
+    <Position X="12.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACBAAAAAAAAAAAAIAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Xml\impl\type\attribute\NamedEnumAttributeBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.xml.impl.type.attribute.StringAttribute" Collapsed="true">
+    <Position X="12.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Xml\impl\type\attribute\StringAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.xml.impl.type.attribute.StringAttributeBuilderImpl" Collapsed="true">
+    <Position X="1" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAACCAAAAAAQAAAAAABBgAAQAAAAAgAAAA=</HashCode>
+      <FileName>Xml\impl\type\attribute\StringAttributeBuilderImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.xml.impl.type.child.ChildElementBuilderImpl&lt;T&gt;" Collapsed="true">
+    <Position X="9.5" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAgAAAABAAAAAAAAACAAAAAAIMgAAAAACAA=</HashCode>
+      <FileName>Xml\impl\type\child\ChildElementBuilderImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.xml.impl.type.child.ChildElementCollectionBuilderImpl&lt;T&gt;" Collapsed="true">
+    <Position X="9.5" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAgAAEABEEAAQAAEACAACAAA4IgAAAAAAAA=</HashCode>
+      <FileName>Xml\impl\type\child\ChildElementCollectionBuilderImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.xml.impl.type.child.ChildElementCollectionImpl&lt;T&gt;" Collapsed="true">
+    <Position X="6.5" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAgCAAAAAgAAEAAAAAAQAAEACAAgEUggAAAAIAMAAQ=</HashCode>
+      <FileName>Xml\impl\type\child\ChildElementCollectionImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.xml.impl.type.child.ChildElementImpl&lt;T&gt;" Collapsed="true">
+    <Position X="6.5" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACIAAAAAAAgAAAAAAAAAI=</HashCode>
+      <FileName>Xml\impl\type\child\ChildElementImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.xml.impl.type.child.SequenceBuilderImpl" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="25.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQABAAAAAAAQAAIAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Xml\impl\type\child\SequenceBuilderImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.xml.impl.type.ModelElementTypeBuilderImpl" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="22" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAwAAABAAAAEAAABQAAAABACCACAA4ABAghIAAE=</HashCode>
+      <FileName>Xml\impl\type\ModelElementTypeBuilderImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.xml.impl.type.ModelElementTypeImpl" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="23.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>KAAABCABAQBIgAEUgAASAABQIgoEMJUMCAgRAogIAAQ=</HashCode>
+      <FileName>Xml\impl\type\ModelElementTypeImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.xml.impl.type.reference.AttributeReferenceBuilderImpl&lt;T&gt;" Collapsed="true">
+    <Position X="15.5" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAMAAAAAAAAAQAIAAAAAAAAAAIAAAAAAAIA=</HashCode>
+      <FileName>Xml\impl\type\reference\AttributeReferenceBuilderImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.xml.impl.type.reference.AttributeReferenceCollectionBuilderImpl&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="22" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAEAAAAAIAAAAAAAAAQAIAAAAAAAAAAIAAAAAAAIA=</HashCode>
+      <FileName>Xml\impl\type\reference\AttributeReferenceCollectionBuilderImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.xml.impl.type.reference.AttributeReferenceImpl&lt;T&gt;" Collapsed="true">
+    <Position X="13.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQgAAgAAAAAAACAAAACAAIAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Xml\impl\type\reference\AttributeReferenceImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.xml.impl.type.reference.ElementReferenceBuilderImpl&lt;Target, Source&gt;" Collapsed="true">
+    <Position X="8" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Xml\impl\type\reference\ElementReferenceBuilderImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.xml.impl.type.reference.ElementReferenceCollectionBuilderImpl&lt;Target, Source&gt;" Collapsed="true">
+    <Position X="11.25" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAQAAAAAAAAAIAgIAAAAAAAAA=</HashCode>
+      <FileName>Xml\impl\type\reference\ElementReferenceCollectionBuilderImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.xml.impl.type.reference.ElementReferenceCollectionImpl&lt;Target, Source&gt;" Collapsed="true">
+    <Position X="5.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQgAEgAAAAEAAAABAACQAEAAAAAAIUAgABAAIAAAAA=</HashCode>
+      <FileName>Xml\impl\type\reference\ElementReferenceCollectionImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.xml.impl.type.reference.ElementReferenceImpl&lt;Target, Source&gt;" Collapsed="true">
+    <Position X="2.25" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAABAAAAAAAAAAAAAAABABAgAAACAAAAAAAAAA=</HashCode>
+      <FileName>Xml\impl\type\reference\ElementReferenceImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.xml.impl.type.reference.IdsElementReferenceCollectionBuilderImpl&lt;Target, Source&gt;" Collapsed="true">
+    <Position X="13.5" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Xml\impl\type\reference\IdsElementReferenceCollectionBuilderImpl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.xml.impl.type.reference.IdsElementReferenceCollectionImpl&lt;Target, Source&gt;" Collapsed="true">
+    <Position X="7.75" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAACAAAAEAAAAAFAAAAAAgAAAAA=</HashCode>
+      <FileName>Xml\impl\type\reference\IdsElementReferenceCollectionImpl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.xml.impl.type.reference.QNameAttributeReferenceBuilderImpl&lt;T&gt;" Collapsed="true">
+    <Position X="15.5" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Xml\impl\type\reference\QNameAttributeReferenceBuilderImpl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.xml.impl.type.reference.QNameAttributeReferenceImpl&lt;T&gt;" Collapsed="true">
+    <Position X="12.25" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Xml\impl\type\reference\QNameAttributeReferenceImpl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.xml.impl.type.reference.QNameElementReferenceBuilderImpl&lt;Target, Source&gt;" Collapsed="true">
+    <Position X="9" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Xml\impl\type\reference\QNameElementReferenceBuilderImpl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.xml.impl.type.reference.QNameElementReferenceCollectionBuilderImpl&lt;Target, Source&gt;" Collapsed="true">
+    <Position X="15.75" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Xml\impl\type\reference\QNameElementReferenceCollectionBuilderImpl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.xml.impl.type.reference.QNameElementReferenceCollectionImpl&lt;Target, Source&gt;" Collapsed="true">
+    <Position X="10" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Xml\impl\type\reference\QNameElementReferenceCollectionImpl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.xml.impl.type.reference.QNameElementReferenceImpl&lt;Target, Source&gt;" Collapsed="true">
+    <Position X="1" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Xml\impl\type\reference\QNameElementReferenceImpl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.xml.impl.type.reference.ReferenceImpl&lt;T&gt;" Collapsed="true">
+    <Position X="7.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQgAAgAAAAAAgBAAAAqAAAAABAAiIAACAAgAgAAABA=</HashCode>
+      <FileName>Xml\impl\type\reference\ReferenceImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.xml.impl.type.reference.UriElementReferenceBuilderImpl&lt;Target, Source&gt;" Collapsed="true">
+    <Position X="6.75" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Xml\impl\type\reference\UriElementReferenceBuilderImpl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.xml.impl.type.reference.UriElementReferenceCollectionBuilderImpl&lt;Target, Source&gt;" Collapsed="true">
+    <Position X="11.25" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Xml\impl\type\reference\UriElementReferenceCollectionBuilderImpl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.xml.impl.type.reference.UriElementReferenceCollectionImpl&lt;Target, Source&gt;" Collapsed="true">
+    <Position X="5.5" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Xml\impl\type\reference\UriElementReferenceCollectionImpl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.xml.impl.type.reference.UriElementReferenceImpl&lt;Target, Source&gt;" Collapsed="true">
+    <Position X="3.25" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Xml\impl\type\reference\UriElementReferenceImpl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.xml.impl.util.DomUtil" Collapsed="true">
+    <Position X="27.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAMAAAAAAAACAAAAIAAAAAAEAAAIA=</HashCode>
+      <FileName>Xml\impl\util\DomUtil.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.xml.impl.util.ModelIoException" Collapsed="true">
+    <Position X="22" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Xml\impl\util\ModelIoException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.xml.impl.util.ModelTypeException" Collapsed="true">
+    <Position X="9.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Xml\impl\util\ModelTypeException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.xml.impl.util.ModelUtil" Collapsed="true">
+    <Position X="25.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AoAAAAAAAAABABABACgAAAABAAKAAAAAAAAggFAAABA=</HashCode>
+      <FileName>Xml\impl\util\ModelUtil.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.xml.impl.util.QName" Collapsed="true">
+    <Position X="22" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEiAAAAAkgAAABAIAAAAAAAAAAAQA=</HashCode>
+      <FileName>Xml\impl\util\QName.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.xml.impl.util.ReflectUtil" Collapsed="true">
+    <Position X="23.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAABAAAAAAAAAAAAAAAAAAAAIg=</HashCode>
+      <FileName>Xml\impl\util\ReflectUtil.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.xml.impl.util.StringUtil" Collapsed="true">
+    <Position X="27.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ADAAAAAAAAAAAAAAAAASAAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Xml\impl\util\StringUtil.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.xml.impl.util.WrongDocumentException" Collapsed="true">
+    <Position X="0.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Xml\impl\util\WrongDocumentException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.xml.impl.util.XmlQName" Collapsed="true">
+    <Position X="23.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAkAAAEcAAABAgAAAACAAAAEgAE=</HashCode>
+      <FileName>Xml\impl\util\XmlQName.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.xml.impl.validation.ModelInstanceValidator" Collapsed="true">
+    <Position X="20.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAIAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Xml\impl\validation\ModelInstanceValidator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.xml.impl.validation.ModelValidationResultImpl" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="27.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAIIAABAAAAQQAAIAAAACA=</HashCode>
+      <FileName>Xml\impl\validation\ModelValidationResultImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.xml.impl.validation.ModelValidationResultsImpl" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="20.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEABAABAAAAAKAAAQAAAACAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Xml\impl\validation\ModelValidationResultsImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.xml.impl.validation.ValidationResultsCollectorImpl" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="22" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEABAAAAAAAACAAAAAAAECAAAAAAAgCAAAQAAAAE=</HashCode>
+      <FileName>Xml\impl\validation\ValidationResultsCollectorImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="org.camunda.bpm.model.xml.ModelBuilder" Collapsed="true">
+    <Position X="12.5" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAABAIAAAAAABAAAIAAAAAAAAA=</HashCode>
+      <FileName>Xml\ModelBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.xml.ModelException" Collapsed="true">
+    <Position X="5.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Xml\ModelException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.xml.ModelParseException" Collapsed="true">
+    <Position X="3" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Xml\ModelParseException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.xml.ModelReferenceException" Collapsed="true">
+    <Position X="5.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Xml\ModelReferenceException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.xml.ModelValidationException" Collapsed="true">
+    <Position X="7.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Xml\ModelValidationException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.xml.UnsupportedModelOperationException" Collapsed="true">
+    <Position X="20.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Xml\UnsupportedModelOperationException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="org.camunda.bpm.model.xml.type.reference.AttributeReferenceCollection&lt;T&gt;" Collapsed="true">
+    <Position X="14.5" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAEgAAAAAAACAAAACAAAAEAAAAAUAgAAAAIAAAAQ=</HashCode>
+      <FileName>Xml\type\reference\AttributeReferenceCollection.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="org.camunda.bpm.model.xml.impl.ModelBuildOperation" Collapsed="true">
+    <Position X="0.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Xml\impl\ModelBuildOperation.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.xml.instance.IDomDocument" Collapsed="true">
+    <Position X="22" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAgBAAAAABABAAAAAEAAAAAA=</HashCode>
+      <FileName>Xml\instance\IDomDocument.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.xml.instance.IDomElement" Collapsed="true">
+    <Position X="23.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAMAIAAAAAACAQAAIAAAAgBCBgABBAAmAAAQAgAAECI=</HashCode>
+      <FileName>Xml\instance\IDomElement.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.xml.instance.IModelElementInstance" Collapsed="true">
+    <Position X="25.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oQAABAARgAABEBCAIAAAAABABAAAAAAAEEAYAAIQIAA=</HashCode>
+      <FileName>Xml\instance\IModelElementInstance.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.xml.Model" Collapsed="true">
+    <Position X="25.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAQAAAAAIAAAAAAAAAQAAAAAAAAAAAAggAAA=</HashCode>
+      <FileName>Xml\Model.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.xml.IModelInstance" Collapsed="true">
+    <Position X="22" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAABAAAAAAAAAAAAAAIAACACAAgAEAAAAAQ=</HashCode>
+      <FileName>Xml\ModelInstance.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.xml.type.attribute.Attribute&lt;T&gt;" Collapsed="true">
+    <Position X="20.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAIEAAKAACAIAAAAAAABAAAAAAAAAEAAACAA=</HashCode>
+      <FileName>Xml\type\attribute\Attribute.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.xml.type.attribute.IAttributeBuilder&lt;T&gt;" Collapsed="true">
+    <Position X="16.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACBAAAAAAAAAAAAIAAAQIAAAAAAAAA=</HashCode>
+      <FileName>Xml\type\attribute\AttributeBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.xml.type.attribute.StringAttributeBuilder" Collapsed="true">
+    <Position X="16.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACCCBAAAAAAAAAAAAJAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Xml\type\attribute\StringAttributeBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.xml.type.child.ChildElement&lt;T&gt;" Collapsed="true">
+    <Position X="15.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Xml\type\child\ChildElement.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.xml.type.child.ChildElementBuilder&lt;T&gt;" Collapsed="true">
+    <Position X="12.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAgAAAABAAAAAAAAACAAAAAAAMgAAAAACAA=</HashCode>
+      <FileName>Xml\type\child\ChildElementBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.xml.type.child.IChildElementCollection&lt;T&gt;" Collapsed="true">
+    <Position X="15.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgCAAAAAAAAEAAAAAAQAAAAAAAAAAgAAAAAAAMAAA=</HashCode>
+      <FileName>Xml\type\child\ChildElementCollection.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.xml.type.child.ChildElementCollectionBuilder&lt;T&gt;" Collapsed="true">
+    <Position X="12.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAgAAEABEAAAAAAAACAAAAAAQIgAAAAAAAA=</HashCode>
+      <FileName>Xml\type\child\ChildElementCollectionBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.xml.type.child.SequenceBuilder" Collapsed="true">
+    <Position X="20.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Xml\type\child\SequenceBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.xml.type.IModelElementType" Collapsed="true">
+    <Position X="27.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAABAABAAAIAAAEAAAAAAAQAgIAABUIAAgAAgAAAAA=</HashCode>
+      <FileName>Xml\type\ModelElementType.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.xml.type.IModelElementTypeBuilder" Collapsed="true">
+    <Position X="20.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAABAAAAEAAABAAAAAAAAAACAA4ABAgBAAAE=</HashCode>
+      <FileName>Xml\type\ModelElementTypeBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.xml.type.IModelTypeInstanceProvider&lt;T&gt;" Collapsed="true">
+    <Position X="23.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Xml\type\ModelElementTypeBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.xml.type.reference.IAttributeReference&lt;T&gt;" Collapsed="true">
+    <Position X="17.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Xml\type\reference\AttributeReference.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.xml.type.reference.IAttributeReferenceBuilder&lt;T&gt;" Collapsed="true">
+    <Position X="3.5" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Xml\type\reference\AttributeReferenceBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.xml.type.reference.IAttributeReferenceCollectionBuilder&lt;T&gt;" Collapsed="true">
+    <Position X="3.5" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Xml\type\reference\AttributeReferenceCollectionBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.xml.type.reference.ElementReference&lt;Target, Source&gt;" Collapsed="true">
+    <Position X="15.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAAAABAAAgAAACAAAAAAAAAA=</HashCode>
+      <FileName>Xml\type\reference\ElementReference.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.xml.type.reference.ElementReferenceBuilder&lt;Target, Source&gt;" Collapsed="true">
+    <Position X="0.5" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Xml\type\reference\ElementReferenceBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.xml.type.reference.ElementReferenceCollection&lt;Target, Source&gt;" Collapsed="true">
+    <Position X="15.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Xml\type\reference\ElementReferenceCollection.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.xml.type.reference.ElementReferenceCollectionBuilder&lt;Target, Source&gt;" Collapsed="true">
+    <Position X="0.5" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Xml\type\reference\ElementReferenceCollectionBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.xml.type.reference.IReference&lt;T&gt;" Collapsed="true">
+    <Position X="16.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAABAAAAAAAAAAAAAgIAACAAgAAAAAAA=</HashCode>
+      <FileName>Xml\type\reference\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.xml.type.reference.IReferenceBuilder&lt;T&gt;" Collapsed="true">
+    <Position X="3.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Xml\type\reference\ReferenceBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.xml.validation.ModelElementValidator&lt;T&gt;" Collapsed="true">
+    <Position X="27.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Xml\validation\ModelElementValidator.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.xml.validation.ValidationResult" Collapsed="true">
+    <Position X="22" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAQQAAIAAAAAA=</HashCode>
+      <FileName>Xml\validation\ValidationResult.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.xml.validation.ValidationResultCollector" Collapsed="true">
+    <Position X="23.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgCAAAAAAAAA=</HashCode>
+      <FileName>Xml\validation\ValidationResultCollector.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.xml.validation.ValidationResultFormatter" Collapsed="true">
+    <Position X="25.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Xml\validation\ValidationResultFormatter.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="org.camunda.bpm.model.xml.validation.ValidationResults" Collapsed="true">
+    <Position X="27.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAIAAAQAAAACAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Xml\validation\ValidationResults.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="org.camunda.bpm.model.xml.validation.ValidationResultType" Collapsed="true">
+    <Position X="20.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Xml\validation\ValidationResultType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

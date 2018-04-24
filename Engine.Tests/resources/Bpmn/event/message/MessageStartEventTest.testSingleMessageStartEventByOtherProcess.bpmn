@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Definitions_1" targetNamespace="http://bpmn.io/schema/bpmn" exporter="Camunda Modeler" exporterVersion="1.11.2">
+  <bpmn:collaboration id="Collaboration_05r0l1d">
+    <bpmn:participant id="Participant_0ywgadw" name="采购服务" processRef="RepariPriceBill" />
+    <bpmn:participant id="Participant_1q34lcz" name="记账服务" processRef="RepariPriceBillAccount" />
+    <bpmn:messageFlow id="MessageFlow_0iu0k9a" sourceRef="Participant_0ywgadw" targetRef="Participant_1q34lcz" />
+    <bpmn:messageFlow id="MessageFlow_1xy8ni3" sourceRef="Task_1qu93w4" targetRef="Task_0vaqwfl" />
+  </bpmn:collaboration>
+  <bpmn:process id="RepariPriceBill" isExecutable="true">
+    <bpmn:laneSet />
+    <bpmn:startEvent id="StartEvent_1755b4j">
+      <bpmn:outgoing>SequenceFlow_0o7lo92</bpmn:outgoing>
+    </bpmn:startEvent>
+    <bpmn:task id="Task_03l51vq" name="保存单据">
+      <bpmn:incoming>SequenceFlow_0o7lo92</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_1witpie</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:sequenceFlow id="SequenceFlow_0o7lo92" sourceRef="StartEvent_1755b4j" targetRef="Task_03l51vq" />
+    <bpmn:task id="Task_18nil1z" name="回写退补价开票单">
+      <bpmn:incoming>SequenceFlow_1witpie</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_0udru0y</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:sequenceFlow id="SequenceFlow_1witpie" sourceRef="Task_03l51vq" targetRef="Task_18nil1z" />
+    <bpmn:sequenceFlow id="SequenceFlow_0udru0y" sourceRef="Task_18nil1z" targetRef="EndEvent_1mc9vtv" />
+    <bpmn:task id="Task_0vaqwfl" name="如果关联了历史采购退补价单 则回写关联采购退补价单的stkInDetPK字段" />
+    <bpmn:endEvent id="EndEvent_1mc9vtv">
+      <bpmn:incoming>SequenceFlow_0udru0y</bpmn:incoming>
+      <bpmn:messageEventDefinition messageRef="Message_05g4bm3" />
+    </bpmn:endEvent>
+  </bpmn:process>
+  <bpmn:signal id="Signal_0kxi42h" name="RepariPriceBillSaveEnd" />
+  <bpmn:message id="Message_05g4bm3" name="RepariPriceBillSaved" />
+  <bpmn:process id="RepariPriceBillAccount" isExecutable="true">
+    <bpmn:sequenceFlow id="SequenceFlow_0uuxtmc" sourceRef="Task_134iztq" targetRef="EndEvent_0ecf9u6" />
+    <bpmn:sequenceFlow id="SequenceFlow_1vff7ms" sourceRef="Task_1qu93w4" targetRef="Task_134iztq" />
+    <bpmn:sequenceFlow id="SequenceFlow_0n7jdca" sourceRef="Task_1lefool" targetRef="Task_1qu93w4" />
+    <bpmn:sequenceFlow id="SequenceFlow_1ht6aet" sourceRef="IntermediateThrowEvent_1e6aard" targetRef="Task_1lefool" />
+    <bpmn:task id="Task_134iztq" name="向发票流水表写数据">
+      <bpmn:incoming>SequenceFlow_1vff7ms</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_0uuxtmc</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:endEvent id="EndEvent_0ecf9u6">
+      <bpmn:incoming>SequenceFlow_0uuxtmc</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:task id="Task_1qu93w4" name="记批次帐">
+      <bpmn:incoming>SequenceFlow_0n7jdca</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_1vff7ms</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="Task_1lefool" name="记账">
+      <bpmn:incoming>SequenceFlow_1ht6aet</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_0n7jdca</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:startEvent id="IntermediateThrowEvent_1e6aard">
+      <bpmn:outgoing>SequenceFlow_1ht6aet</bpmn:outgoing>
+      <bpmn:messageEventDefinition messageRef="Message_05g4bm3" />
+    </bpmn:startEvent>
+  </bpmn:process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_1">
+    <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="Collaboration_05r0l1d">
+      <bpmndi:BPMNShape id="Participant_0ywgadw_di" bpmnElement="Participant_0ywgadw">
+        <dc:Bounds x="188" y="-76" width="849" height="254" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="StartEvent_1755b4j_di" bpmnElement="StartEvent_1755b4j">
+        <dc:Bounds x="258" y="31" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="276" y="70" width="0" height="13" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_03l51vq_di" bpmnElement="Task_03l51vq">
+        <dc:Bounds x="370" y="9" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_0o7lo92_di" bpmnElement="SequenceFlow_0o7lo92">
+        <di:waypoint xsi:type="dc:Point" x="294" y="49" />
+        <di:waypoint xsi:type="dc:Point" x="370" y="49" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="332" y="27" width="0" height="13" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="Task_18nil1z_di" bpmnElement="Task_18nil1z">
+        <dc:Bounds x="522" y="9" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_1witpie_di" bpmnElement="SequenceFlow_1witpie">
+        <di:waypoint xsi:type="dc:Point" x="470" y="49" />
+        <di:waypoint xsi:type="dc:Point" x="522" y="49" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="496" y="27" width="0" height="13" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="SequenceFlow_0udru0y_di" bpmnElement="SequenceFlow_0udru0y">
+        <di:waypoint xsi:type="dc:Point" x="622" y="49" />
+        <di:waypoint xsi:type="dc:Point" x="670" y="49" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="601" y="27.5" width="90" height="13" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="Task_1lefool_di" bpmnElement="Task_1lefool">
+        <dc:Bounds x="409" y="278" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_1qu93w4_di" bpmnElement="Task_1qu93w4">
+        <dc:Bounds x="581" y="278" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_0vaqwfl_di" bpmnElement="Task_0vaqwfl">
+        <dc:Bounds x="778" y="9" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="EndEvent_0ecf9u6_di" bpmnElement="EndEvent_0ecf9u6">
+        <dc:Bounds x="876" y="300" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="849" y="339" width="90" height="13" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="EndEvent_0sfz4ix_di" bpmnElement="EndEvent_1mc9vtv">
+        <dc:Bounds x="670" y="31" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="643" y="70" width="0" height="13" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_134iztq_di" bpmnElement="Task_134iztq">
+        <dc:Bounds x="745" y="278" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Participant_1q34lcz_di" bpmnElement="Participant_1q34lcz">
+        <dc:Bounds x="188" y="244" width="769" height="164" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="MessageFlow_0iu0k9a_di" bpmnElement="MessageFlow_0iu0k9a">
+        <di:waypoint xsi:type="dc:Point" x="613" y="178" />
+        <di:waypoint xsi:type="dc:Point" x="613" y="244" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="583" y="204.5" width="90" height="13" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="SequenceFlow_0uuxtmc_di" bpmnElement="SequenceFlow_0uuxtmc">
+        <di:waypoint xsi:type="dc:Point" x="845" y="318" />
+        <di:waypoint xsi:type="dc:Point" x="876" y="318" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="816" y="297" width="90" height="13" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="MessageFlow_1xy8ni3_di" bpmnElement="MessageFlow_1xy8ni3">
+        <di:waypoint xsi:type="dc:Point" x="631" y="278" />
+        <di:waypoint xsi:type="dc:Point" x="631" y="215" />
+        <di:waypoint xsi:type="dc:Point" x="856" y="215" />
+        <di:waypoint xsi:type="dc:Point" x="856" y="89" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="699" y="194" width="90" height="13" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="SequenceFlow_1vff7ms_di" bpmnElement="SequenceFlow_1vff7ms">
+        <di:waypoint xsi:type="dc:Point" x="681" y="318" />
+        <di:waypoint xsi:type="dc:Point" x="745" y="318" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="668" y="296" width="90" height="13" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="SequenceFlow_0n7jdca_di" bpmnElement="SequenceFlow_0n7jdca">
+        <di:waypoint xsi:type="dc:Point" x="509" y="318" />
+        <di:waypoint xsi:type="dc:Point" x="536" y="318" />
+        <di:waypoint xsi:type="dc:Point" x="536" y="318" />
+        <di:waypoint xsi:type="dc:Point" x="581" y="318" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="506" y="311.5" width="90" height="13" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="SequenceFlow_1ht6aet_di" bpmnElement="SequenceFlow_1ht6aet">
+        <di:waypoint xsi:type="dc:Point" x="320" y="318" />
+        <di:waypoint xsi:type="dc:Point" x="409" y="318" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="319.5" y="296.5" width="90" height="13" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="StartEvent_11a5ekh_di" bpmnElement="IntermediateThrowEvent_1e6aard">
+        <dc:Bounds x="284" y="300" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="257" y="339" width="0" height="13" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn:definitions>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<definitions id="definitions"
+             xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL"
+             targetNamespace="Examples">
+
+    <process id="mocksTest"
+             isExecutable="true">
+
+        <startEvent id="theStart" />
+        <sequenceFlow sourceRef="theStart"
+                      targetRef="ScriptTask" />
+
+        <ScriptTask id="ScriptTask" scriptFormat="groovy">
+            <incoming>ScriptTask</incoming>
+            <outgoing>WaitState</outgoing>
+            <script>myMock.TestMethod execution, myMock.Test</script>
+        </ScriptTask>
+        <sequenceFlow sourceRef="ScriptTask"
+                      targetRef="WaitState" />
+
+        <userTask id="WaitState" />
+        <sequenceFlow sourceRef="WaitState"
+                      targetRef="end" />
+
+        <endEvent id="end" />
+
+    </process>
+
+</definitions>
